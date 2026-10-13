@@ -1,0 +1,41 @@
+name: Yamathon data
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yamathon-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch Webscorer data
+        env:
+          WEBSCORER_APIID: ${{ secrets.WEBSCORER_APIID }}
+          WEBSCORER_TOKEN: ${{ secrets.WEBSCORER_TOKEN }}
+        run: node scripts/fetch.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name  "yamathon-bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/counts.json data/results.json
+          if git diff --quiet --staged; then
+            echo "No data change."
+          else
+            git commit -m "data: refresh $(date -u +%FT%TZ)"
+            git push
+          fi
