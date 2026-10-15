@@ -1,6 +1,6 @@
 {
   "_comment": "(c) 2026 SxS Partners. Race IDs for the Tokyo Yamathon 2026 dashboard. startLists are set (roster/Teams In). Fill in results.* on race morning once timing is posted (3 new per-course result raceids), commit, and the Action picks them up within ~10 min.",
-  "startLists": { "full": "451065", "half": "451064", "quarter": "451063" },
+  "startLists": { "full": "451840", "half": "452036", "quarter": "451063" },
   "results":    { "full": "", "half": "", "quarter": "" },
   "tracking":   ["432537", "434355"]
 }
