@@ -37,6 +37,7 @@
 const CONFIG = {
   RESULTS_URL: "data/results.json",   // finishers (race day)
   COUNTS_URL:  "data/counts.json",    // teams-in per course (live now)
+  WAVES_URL:   "data/waves.json",     // start-wave schedule per course (releases On Course)
   REFRESH_SECONDS: 30,
 
   TITLE: "Tokyo Yamathon",
@@ -327,7 +328,7 @@ const CONFIG = {
 
   /* ---------------- state ---------------- */
   const legState = {};
-  for (const key of ORDER) legState[key] = { entered: CONFIG.LEGS[key].entered || 0, done: 0, ret: 0, place: 0, top: [] };
+  for (const key of ORDER) legState[key] = { entered: CONFIG.LEGS[key].entered || 0, done: 0, ret: 0, place: 0, top: [], waves: null };
   const feedEl = ROOT.querySelector("#oc-feed");
   let feedCount = 0, activeFilter = "all";
 
@@ -472,12 +473,32 @@ const CONFIG = {
     topSeen[key] = new Set(rows.map(r => r.team));
   }
 
+  // Absolute instant (epoch ms) of a wave time "H:MM"/"HH:MM" on race day (JST).
+  function waveMs(t) {
+    const m = String(t == null ? "" : t).match(/(\d{1,2}):(\d{2})/);
+    if (!m) return null;
+    const datePart = (CONFIG.RACE_START || "2026-10-17T08:00:00+09:00").slice(0, 10);
+    const d = new Date(datePart + "T" + String(m[1]).padStart(2, "0") + ":" + m[2] + ":00+09:00");
+    return isNaN(d.getTime()) ? null : d.getTime();
+  }
+  // Teams released onto the course so far = sum of waves whose time has passed.
+  // No wave schedule loaded yet -> fall back to the whole roster at RACE_START.
+  function releasedCount(key) {
+    const s = legState[key];
+    if (Array.isArray(s.waves) && s.waves.length) {
+      const now = Date.now();
+      let sum = 0;
+      for (const w of s.waves) if (w.ms != null && now >= w.ms) sum += w.n;
+      return s.entered ? Math.min(s.entered, sum) : sum;
+    }
+    return (raceStart != null && Date.now() >= raceStart) ? s.entered : 0;
+  }
+
   function paint() {
     let tin = 0, tdone = 0, tret = 0, tcourse = 0;
     for (const key of ORDER) {
       const s = legState[key];
-      const started = raceStart != null && Date.now() >= raceStart;
-      const course = started ? Math.max(0, s.entered - s.done - s.ret) : 0;
+      const course = Math.max(0, releasedCount(key) - s.done - s.ret);
       tin += s.entered; tdone += s.done; tret += s.ret; tcourse += course;
       set("s-" + key + "-in", s.entered);
       set("s-" + key + "-course", course);
@@ -495,8 +516,7 @@ const CONFIG = {
     } else {
       const s = legState[activeFilter];
       set("lab-in", legLabel(activeFilter) + " " + t("sIn"));
-      const started = raceStart != null && Date.now() >= raceStart;
-      set("k-in", s.entered); set("k-course", started ? Math.max(0, s.entered - s.done - s.ret) : 0); set("k-done", s.done); set("k-ret", s.ret);
+      set("k-in", s.entered); set("k-course", Math.max(0, releasedCount(activeFilter) - s.done - s.ret)); set("k-done", s.done); set("k-ret", s.ret);
     }
   }
 
@@ -577,11 +597,20 @@ const CONFIG = {
   /* ---------------- LIVE polling ---------------- */
   async function poll() {
     try {
-      const [rRes, rCnt] = await Promise.all([
+      const [rRes, rCnt, rWav] = await Promise.all([
         CONFIG.RESULTS_URL ? fetch(CONFIG.RESULTS_URL, { cache: "no-store" }).then(r => r.json()) : null,
-        CONFIG.COUNTS_URL ? fetch(CONFIG.COUNTS_URL, { cache: "no-store" }).then(r => r.json()) : null
+        CONFIG.COUNTS_URL ? fetch(CONFIG.COUNTS_URL, { cache: "no-store" }).then(r => r.json()) : null,
+        CONFIG.WAVES_URL  ? fetch(CONFIG.WAVES_URL,  { cache: "no-store" }).then(r => r.json()).catch(() => null) : null
       ]);
       if (rCnt && !rCnt.error) for (const k of ORDER) if (rCnt[k] != null) legState[k].entered = rCnt[k];
+      if (rWav && !rWav.error) for (const k of ORDER) {
+        if (!Array.isArray(rWav[k])) continue;
+        const parsed = rWav[k]
+          .map(w => ({ ms: waveMs(w.t), n: Number(w.n) || 0 }))
+          .filter(w => w.ms != null && w.n > 0)
+          .sort((a, b) => a.ms - b.ms);
+        legState[k].waves = parsed.length ? parsed : null;
+      }
       if (rRes && !rRes.error) {
         if (raceStart == null && rRes.raceStart) raceStart = new Date(rRes.raceStart).getTime();
         const legs = rRes.legs || {};
