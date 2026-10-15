@@ -28,6 +28,7 @@ if (!APIID || !TOKEN) {
 const cfgURL  = new URL("../config.json", import.meta.url);
 const countsU = new URL("../data/counts.json", import.meta.url);
 const resU    = new URL("../data/results.json", import.meta.url);
+const wavesU  = new URL("../data/waves.json", import.meta.url);
 const cfg = JSON.parse(await readFile(cfgURL, "utf8"));
 
 /* ---- helpers ---- */
@@ -39,6 +40,38 @@ function timeToSec(t) {
   return p.reduce((a, v) => a * 60 + v, 0);
 }
 const teamName = r => r.Name || r["Team name"] || r.TeamName || "";
+
+/* ---- wave time extraction ----
+   Each start-list entry carries its wave as a clock time. We try the likely
+   field names first, then fall back to scanning any string value for a valid
+   HH:MM. Returns a zero-padded "HH:MM" (JST) or null. */
+const WAVE_FIELDS = ["Wave", "WaveName", "WaveStart", "StartWave", "StartGroup",
+                     "StartTime", "Start", "StartTimeOfDay", "StartOfDay", "Group"];
+function hhmm(s) {
+  const m = String(s).match(/(\d{1,2}):(\d{2})/);
+  if (!m) return null;
+  const h = Number(m[1]), mi = Number(m[2]);
+  if (h < 0 || h > 23 || mi < 0 || mi > 59) return null;
+  return String(h).padStart(2, "0") + ":" + m[2];
+}
+function waveTime(r) {
+  for (const f of WAVE_FIELDS) if (r[f] != null) { const t = hhmm(r[f]); if (t) return t; }
+  for (const v of Object.values(r)) if (typeof v === "string") { const t = hhmm(v); if (t) return t; }
+  return null;
+}
+function bucketWaves(list) {
+  const map = new Map();
+  let matched = 0;
+  for (const r of list) {
+    if (!r) continue;
+    const t = waveTime(r);
+    if (!t) continue;
+    matched++;
+    map.set(t, (map.get(t) || 0) + 1);
+  }
+  const waves = [...map.entries()].map(([t, n]) => ({ t, n })).sort((a, b) => a.t.localeCompare(b.t));
+  return { waves, matched, total: list.length };
+}
 
 async function ws(path) {
   const url = `https://www.webscorer.com${path}` +
@@ -52,9 +85,10 @@ async function ws(path) {
   return data;
 }
 
-/* ---- counts: one start list per course, count the roster ---- */
-async function buildCounts() {
+/* ---- counts + waves: one start list per course ---- */
+async function buildRoster() {
   const counts = { full: 0, half: 0, quarter: 0 };
+  const waves = {};   // course -> [{t,n}] only when reliably bucketed
   for (const k of ORDER) {
     const id = cfg.startLists && cfg.startLists[k];
     if (!id) continue;
@@ -64,6 +98,17 @@ async function buildCounts() {
       counts[k] = Array.isArray(list) && list.length
         ? list.length
         : Number((data.RaceInfo && data.RaceInfo.Racers) || 0);
+      if (Array.isArray(list) && list.length) {
+        const b = bucketWaves(list);
+        // Accept the wave breakdown only if we found a time for ~all entries;
+        // otherwise keep the last-good waves.json so we never write garbage.
+        if (b.matched >= b.total * 0.9 && b.waves.length) {
+          waves[k] = b.waves;
+          console.log(`waves ${k}: ${b.waves.map(w => w.t + "x" + w.n).join(" ")} (${b.matched}/${b.total})`);
+        } else {
+          console.error(`waves ${k}: only ${b.matched}/${b.total} had a wave time — keeping last-good.`);
+        }
+      }
     } catch (e) {
       console.error(`counts ${k} (${id}) failed: ${e.message}`);
       throw e; // let caller keep the last-good file
@@ -71,7 +116,7 @@ async function buildCounts() {
   }
   counts.total = counts.full + counts.half + counts.quarter;
   counts.updated = new Date().toISOString();
-  return counts;
+  return { counts, waves };
 }
 
 /* ---- results: one results race per course, finishers + DNF ---- */
@@ -115,9 +160,21 @@ async function buildResults() {
 let fail = false;
 
 try {
-  const counts = await buildCounts();
+  const { counts, waves } = await buildRoster();
   await writeFile(countsU, JSON.stringify(counts, null, 2));
   console.log("counts:", JSON.stringify({ full: counts.full, half: counts.half, quarter: counts.quarter, total: counts.total }));
+
+  // Merge fresh waves over the existing file so a course that didn't parse
+  // this run keeps its last-good schedule (and the seeded estimates survive).
+  try {
+    let prev = {};
+    try { prev = JSON.parse(await readFile(wavesU, "utf8")); } catch {}
+    const next = { ...prev, updated: new Date().toISOString() };
+    for (const k of ORDER) if (waves[k]) next[k] = waves[k];
+    await writeFile(wavesU, JSON.stringify(next, null, 2));
+  } catch (e) {
+    console.error("waves: could not write —", e.message);
+  }
 } catch (e) {
   console.error("counts: kept last-good file —", e.message);
   fail = true;
