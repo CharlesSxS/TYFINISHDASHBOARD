@@ -1,6 +1,14 @@
 {
-  "updated": null,
-  "raceStart": "2026-10-17T08:00:00+09:00",
-  "legs": { "full": [], "half": [], "quarter": [] },
-  "retired": { "full": 0, "half": 0, "quarter": 0 }
+  "updated": "2026-10-16T22:54:21.679Z",
+  "raceStart": null,
+  "legs": {
+    "full": [],
+    "half": [],
+    "quarter": []
+  },
+  "retired": {
+    "full": 0,
+    "half": 0,
+    "quarter": 0
+  }
 }
