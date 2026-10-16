@@ -1,6 +1,6 @@
 {
   "_note": "Start-wave schedule per course. Times (JST) are from the final start lists and drive the On Course release. Counts are seeded estimates to the roster totals (686/284/143); the GitHub Action recounts them EXACTLY from the start lists each run. You may hand-edit the counts here any time.",
-  "updated": "2026-10-16T23:48:22.549Z",
+  "updated": "2026-10-16T23:54:21.605Z",
   "full": [
     {
       "t": "08:00",
