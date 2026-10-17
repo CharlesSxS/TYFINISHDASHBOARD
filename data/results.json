@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T05:18:20.628Z",
+  "updated": "2026-10-17T05:24:19.168Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -382,148 +382,168 @@
       },
       {
         "place": "69",
+        "team": "8492",
+        "time": "4:48:09.7"
+      },
+      {
+        "place": "70",
         "team": "Hawaii 50",
         "time": "4:54:39.8"
       },
       {
-        "place": "70",
+        "place": "71",
         "team": "Adient D",
         "time": "4:55:55.3"
       },
       {
-        "place": "71",
+        "place": "72",
         "team": "Adient E",
         "time": "4:56:00.0"
       },
       {
-        "place": "72",
+        "place": "73",
         "team": "Adient G",
         "time": "4:56:39.8"
       },
       {
-        "place": "73",
+        "place": "74",
         "team": "Amhi Chalu Sanghatana",
         "time": "4:56:53.7"
       },
       {
-        "place": "74",
+        "place": "75",
         "team": "WKO Japan 2",
         "time": "4:58:39.9"
       },
       {
-        "place": "75",
+        "place": "76",
         "team": "WKO Japan 1",
         "time": "4:59:19.6"
       },
       {
-        "place": "76",
+        "place": "77",
+        "team": "L TEAM",
+        "time": "5:04:37.6"
+      },
+      {
+        "place": "78",
         "team": "Decathlon Breeze Runners",
         "time": "5:04:57.9"
       },
       {
-        "place": "77",
+        "place": "79",
         "team": "Decathlon Cozy Pacers",
         "time": "5:05:14.9"
       },
       {
-        "place": "78",
+        "place": "80",
         "team": "SxS Summit & Beyond",
         "time": "5:07:30.3"
       },
       {
-        "place": "79",
+        "place": "81",
         "team": "レオナさん出産おめでとうメーン",
         "time": "5:11:32.4"
       },
       {
-        "place": "80",
+        "place": "82",
         "team": "Gaijin Walker's",
         "time": "5:12:24.3"
       },
       {
-        "place": "81",
+        "place": "83",
         "team": "未来徒歩会Half2",
         "time": "5:19:00.0"
       },
       {
-        "place": "82",
+        "place": "84",
         "team": "HPE-HEXA☆GON",
         "time": "5:19:31.0"
       },
       {
-        "place": "83",
+        "place": "85",
         "team": "HPE-HEXA★GON",
         "time": "5:19:35.5"
       },
       {
-        "place": "84",
+        "place": "86",
         "team": "Servicenow - The 3 amigos",
         "time": "5:28:23.4"
       },
       {
-        "place": "85",
+        "place": "87",
         "team": "Servicenow - DC Plumbers",
         "time": "5:30:13.2"
       },
       {
-        "place": "86",
+        "place": "88",
         "team": "ServiceNow-RGB軍団",
         "time": "5:36:43.2"
       },
       {
-        "place": "87",
+        "place": "89",
         "team": "CBRE Sole Mates",
         "time": "5:41:05.5"
       },
       {
-        "place": "88",
+        "place": "90",
         "team": "HPE-TED_APS_United",
         "time": "5:51:07.5"
       },
       {
-        "place": "89",
+        "place": "91",
         "team": "HPE APS Presales 2026",
         "time": "5:51:14.6"
       },
       {
-        "place": "90",
+        "place": "92",
         "team": "HPI-Cat3",
         "time": "5:55:11.4"
       },
       {
-        "place": "91",
+        "place": "93",
         "team": "HPI-Barbarians",
         "time": "5:55:17.3"
       },
       {
-        "place": "92",
+        "place": "94",
         "team": "Team F",
         "time": "5:55:52.7"
       },
       {
-        "place": "93",
+        "place": "95",
         "team": "HPI-Cat1",
         "time": "5:56:30.9"
       },
       {
-        "place": "94",
+        "place": "96",
         "team": "HPI-Cat2",
         "time": "5:56:37.0"
       },
       {
-        "place": "95",
+        "place": "97",
         "team": "HPI-FY95ers",
         "time": "5:58:30.5"
       },
       {
-        "place": "96",
+        "place": "98",
         "team": "赤い蹄",
         "time": "6:00:18.8"
       },
       {
-        "place": "97",
+        "place": "99",
         "team": "Sailor Meow",
         "time": "6:04:21.1"
+      },
+      {
+        "place": "100",
+        "team": "HPI-Chico-chan family",
+        "time": "6:06:37.0"
+      },
+      {
+        "place": "101",
+        "team": "HPI-はっぴーぷる",
+        "time": "6:09:32.9"
       }
     ],
     "quarter": [
@@ -1141,6 +1161,16 @@
         "place": "123",
         "team": "SRS-NAI 2",
         "time": "4:27:47.8"
+      },
+      {
+        "place": "124",
+        "team": "チェルTEAM",
+        "time": "4:34:13.0"
+      },
+      {
+        "place": "125",
+        "team": "てくてく",
+        "time": "4:36:06.8"
       }
     ]
   },
