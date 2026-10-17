@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T04:30:40.988Z",
+  "updated": "2026-10-17T04:36:20.599Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -237,106 +237,116 @@
       },
       {
         "place": "45",
+        "team": "Running late",
+        "time": "4:17:17.5"
+      },
+      {
+        "place": "46",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "46",
+        "place": "47",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "47",
+        "place": "48",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "48",
+        "place": "49",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
       },
       {
-        "place": "49",
+        "place": "50",
         "team": "IDEXX 6",
         "time": "4:41:16.3"
       },
       {
-        "place": "50",
+        "place": "51",
         "team": "IDEXX 5",
         "time": "4:41:32.3"
       },
       {
-        "place": "51",
+        "place": "52",
         "team": "JPM  Yamanote Walkers",
         "time": "4:41:35.9"
       },
       {
-        "place": "52",
+        "place": "53",
         "team": "JPM Shi-Shi-Jam",
         "time": "4:41:38.9"
       },
       {
-        "place": "53",
+        "place": "54",
         "team": "IDEXX 8",
         "time": "4:42:28.7"
       },
       {
-        "place": "54",
+        "place": "55",
         "team": "IDEXX 3",
         "time": "4:43:31.5"
       },
       {
-        "place": "55",
+        "place": "56",
         "team": "IDEXX 2",
         "time": "4:43:36.1"
       },
       {
-        "place": "56",
+        "place": "57",
         "team": "Team Dorayaki",
         "time": "4:47:23.9"
       },
       {
-        "place": "57",
+        "place": "58",
         "team": "Adient D",
         "time": "4:55:55.3"
       },
       {
-        "place": "58",
+        "place": "59",
         "team": "Adient E",
         "time": "4:56:00.0"
       },
       {
-        "place": "59",
+        "place": "60",
         "team": "Adient G",
         "time": "4:56:39.8"
       },
       {
-        "place": "60",
+        "place": "61",
         "team": "Amhi Chalu Sanghatana",
         "time": "4:56:53.7"
       },
       {
-        "place": "61",
+        "place": "62",
         "team": "WKO Japan 2",
         "time": "4:58:39.9"
       },
       {
-        "place": "62",
+        "place": "63",
         "team": "WKO Japan 1",
         "time": "4:59:19.6"
       },
       {
-        "place": "63",
+        "place": "64",
+        "team": "レオナさん出産おめでとうメーン",
+        "time": "5:11:32.4"
+      },
+      {
+        "place": "65",
         "team": "Gaijin Walker's",
         "time": "5:12:24.3"
       },
       {
-        "place": "64",
+        "place": "66",
         "team": "HPE-HEXA☆GON",
         "time": "5:19:31.0"
       },
       {
-        "place": "65",
+        "place": "67",
         "team": "HPE-HEXA★GON",
         "time": "5:19:35.5"
       }
@@ -886,6 +896,16 @@
         "place": "109",
         "team": "MS-Lulu&Ari",
         "time": "3:45:01.3"
+      },
+      {
+        "place": "110",
+        "team": "MAN カシスを求めて三千里",
+        "time": "3:45:37.3"
+      },
+      {
+        "place": "111",
+        "team": "MAN MLJ_PayrollG",
+        "time": "3:47:10.0"
       }
     ]
   },
