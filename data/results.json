@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T10:12:21.734Z",
+  "updated": "2026-10-17T10:18:20.964Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -1290,138 +1290,183 @@
       },
       {
         "place": "258",
+        "team": "ABINAYA SRI",
+        "time": "10:29:06.4"
+      },
+      {
+        "place": "259",
         "team": "Miles by Modis",
         "time": "10:30:10.7"
       },
       {
-        "place": "259",
+        "place": "260",
+        "team": "THATSONME",
+        "time": "10:30:19.9"
+      },
+      {
+        "place": "261",
         "team": "SPRINT・REKKER",
         "time": "10:31:08.8"
       },
       {
-        "place": "260",
+        "place": "262",
         "team": "JTSC YELLOW",
         "time": "10:31:38.5"
       },
       {
-        "place": "261",
+        "place": "263",
         "team": "Jack and his minions",
         "time": "10:32:44.0"
       },
       {
-        "place": "262",
+        "place": "264",
         "team": "とんとん歩く2026",
         "time": "10:33:44.7"
       },
       {
-        "place": "263",
+        "place": "265",
         "team": "JoLaMar",
         "time": "10:33:48.1"
       },
       {
-        "place": "264",
+        "place": "266",
         "team": "Infosys Ninjas",
         "time": "10:34:18.0"
       },
       {
-        "place": "265",
+        "place": "267",
         "team": "限界突破",
         "time": "10:34:28.7"
       },
       {
-        "place": "266",
+        "place": "268",
         "team": "Blessed and Distressed",
         "time": "10:34:49.4"
       },
       {
-        "place": "267",
+        "place": "269",
         "team": "NagaSampo",
         "time": "10:35:15.5"
       },
       {
-        "place": "268",
+        "place": "270",
         "team": "熱海again",
         "time": "10:35:26.6"
       },
       {
-        "place": "269",
+        "place": "271",
         "team": "Sole Sisters",
         "time": "10:36:48.9"
       },
       {
-        "place": "270",
+        "place": "272",
         "team": "桃と愉快な仲間たち",
         "time": "10:38:34.6"
       },
       {
-        "place": "271",
+        "place": "273",
         "team": "Burabura-bu",
         "time": "10:39:04.0"
       },
       {
-        "place": "272",
+        "place": "274",
         "team": "Dream Team 1",
         "time": "10:39:36.9"
       },
       {
-        "place": "273",
+        "place": "275",
         "team": "わんわん",
         "time": "10:40:20.0"
       },
       {
-        "place": "274",
+        "place": "276",
         "team": "The Yamanote Trio",
         "time": "10:40:57.2"
       },
       {
-        "place": "275",
+        "place": "277",
         "team": "team TAKANAWA",
         "time": "10:41:03.3"
       },
       {
-        "place": "276",
+        "place": "278",
         "team": "Lost in Tokyo Year3: Walk is Coming",
         "time": "10:41:50.5"
       },
       {
-        "place": "277",
+        "place": "279",
+        "team": "ULA Trips & Travels",
+        "time": "10:42:01.6"
+      },
+      {
+        "place": "280",
         "team": "Forever Young at 60",
         "time": "10:43:21.3"
       },
       {
-        "place": "278",
+        "place": "281",
         "team": "The Spicy Girls",
         "time": "10:44:02.5"
       },
       {
-        "place": "279",
+        "place": "282",
         "team": "NC登山部A",
         "time": "10:44:33.5"
       },
       {
-        "place": "280",
+        "place": "283",
+        "team": "CHACHA-MARU",
+        "time": "10:45:26.6"
+      },
+      {
+        "place": "284",
+        "team": "Runner's High",
+        "time": "10:50:01.0"
+      },
+      {
+        "place": "285",
+        "team": "Full Yamathon Regret Club",
+        "time": "10:50:08.6"
+      },
+      {
+        "place": "286",
         "team": "GKA_We♡Chemistry",
         "time": "10:51:37.2"
       },
       {
-        "place": "281",
+        "place": "287",
         "team": "GKA Ashley",
         "time": "10:51:45.4"
       },
       {
-        "place": "282",
+        "place": "288",
+        "team": "二姫二太郎",
+        "time": "10:52:46.0"
+      },
+      {
+        "place": "289",
         "team": "HPE-SixTYONES",
         "time": "10:53:08.2"
       },
       {
-        "place": "283",
+        "place": "290",
+        "team": "MB1801",
+        "time": "10:53:23.5"
+      },
+      {
+        "place": "291",
         "team": "AFLN",
         "time": "10:55:14.0"
       },
       {
-        "place": "284",
+        "place": "292",
         "team": "Tsubutsubu",
         "time": "10:58:54.7"
+      },
+      {
+        "place": "293",
+        "team": "HPI-まりも",
+        "time": "11:02:15.5"
       }
     ],
     "half": [
