@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T12:12:21.882Z",
+  "updated": "2026-10-17T12:18:20.587Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -2435,266 +2435,326 @@
       },
       {
         "place": "487",
+        "team": "Trackers",
+        "time": "11:55:21.2"
+      },
+      {
+        "place": "488",
         "team": "Segodon",
         "time": "11:55:29.1"
       },
       {
-        "place": "488",
+        "place": "489",
         "team": "エスコート",
         "time": "11:55:35.2"
       },
       {
-        "place": "489",
+        "place": "490",
         "team": "Vegetarians",
         "time": "11:56:12.1"
       },
       {
-        "place": "490",
+        "place": "491",
         "team": "Carnivore",
         "time": "11:56:31.7"
       },
       {
-        "place": "491",
+        "place": "492",
         "team": "Tomorrow's my birthday",
         "time": "11:57:16.2"
       },
       {
-        "place": "492",
+        "place": "493",
         "team": "チームD",
         "time": "11:57:49.8"
       },
       {
-        "place": "493",
+        "place": "494",
         "team": "BIG STEP",
         "time": "11:58:17.8"
       },
       {
-        "place": "494",
+        "place": "495",
         "team": "お散歩の仙人たち",
         "time": "11:59:41.3"
       },
       {
-        "place": "495",
+        "place": "496",
         "team": "Exploding Mofusando WalKing & WalQueens",
         "time": "11:59:52.9"
       },
       {
-        "place": "496",
+        "place": "497",
         "team": "Yakusugi",
         "time": "12:00:37.7"
       },
       {
-        "place": "497",
+        "place": "498",
         "team": "Team F, F, T, and D",
         "time": "12:00:41.4"
       },
       {
-        "place": "498",
+        "place": "499",
         "team": "The Powerpuff Girls",
         "time": "12:00:51.4"
       },
       {
-        "place": "499",
+        "place": "500",
         "team": "The Clovers",
         "time": "12:00:58.9"
       },
       {
-        "place": "500",
+        "place": "501",
         "team": "LD",
         "time": "12:01:59.0"
       },
       {
-        "place": "501",
+        "place": "502",
         "team": "岩ガマドーむ〜ボー１",
         "time": "12:04:33.4"
       },
       {
-        "place": "502",
+        "place": "503",
         "team": "MixZigZag",
         "time": "12:05:32.6"
       },
       {
-        "place": "503",
+        "place": "504",
         "team": "Konbini Krawlers",
         "time": "12:05:55.1"
       },
       {
-        "place": "504",
+        "place": "505",
         "team": "The Odawalkers and . . .",
         "time": "12:06:00.5"
       },
       {
-        "place": "505",
+        "place": "506",
         "team": "岩ガマドーむ〜ボー２",
         "time": "12:06:54.5"
       },
       {
-        "place": "506",
+        "place": "507",
         "team": "申年",
         "time": "12:07:13.0"
       },
       {
-        "place": "507",
+        "place": "508",
         "team": "Jewel and Gem",
         "time": "12:07:49.1"
       },
       {
-        "place": "508",
+        "place": "509",
         "team": "More Better",
         "time": "12:07:53.3"
       },
       {
-        "place": "509",
+        "place": "510",
         "team": "Philips6",
         "time": "12:08:29.7"
       },
       {
-        "place": "510",
+        "place": "511",
         "team": "アイティーアイ（株）関東",
         "time": "12:09:24.0"
       },
       {
-        "place": "511",
+        "place": "512",
+        "team": "Yamanote Swing",
+        "time": "12:13:14.7"
+      },
+      {
+        "place": "513",
         "team": "Yoko Mana Ohana",
         "time": "12:13:19.0"
       },
       {
-        "place": "512",
+        "place": "514",
         "team": "Fight Club 2",
         "time": "12:14:04.9"
       },
       {
-        "place": "513",
+        "place": "515",
         "team": "Fight club",
         "time": "12:14:11.9"
       },
       {
-        "place": "514",
+        "place": "516",
         "team": "Cow Attack",
         "time": "12:14:29.7"
       },
       {
-        "place": "515",
+        "place": "517",
         "team": "フル1",
         "time": "12:14:37.3"
       },
       {
-        "place": "516",
+        "place": "518",
         "team": "フル2",
         "time": "12:14:55.3"
       },
       {
-        "place": "517",
+        "place": "519",
         "team": "Work hard, walk harder",
         "time": "12:17:08.1"
       },
       {
-        "place": "518",
+        "place": "520",
         "team": "AMUNA Gamers-1",
         "time": "12:18:00.1"
       },
       {
-        "place": "519",
+        "place": "521",
         "team": "Tree of Life",
         "time": "12:21:02.4"
       },
       {
-        "place": "520",
+        "place": "522",
         "team": "Knights1",
         "time": "12:23:15.8"
       },
       {
-        "place": "521",
+        "place": "523",
         "team": "ベイサイドランニング",
         "time": "12:24:43.1"
       },
       {
-        "place": "522",
+        "place": "524",
         "team": "Harmonious Co-Existers (Famichiki.jp)",
         "time": "12:25:08.4"
       },
       {
-        "place": "523",
+        "place": "525",
         "team": "She run 4",
         "time": "12:26:23.4"
       },
       {
-        "place": "524",
+        "place": "526",
         "team": "アイラサラマ",
         "time": "12:26:25.8"
       },
       {
-        "place": "525",
+        "place": "527",
         "team": "she runs 2",
         "time": "12:26:28.2"
       },
       {
-        "place": "526",
+        "place": "528",
         "team": "She run 1",
         "time": "12:26:30.0"
       },
       {
-        "place": "527",
+        "place": "529",
         "team": "Lets go!",
         "time": "12:27:24.5"
       },
       {
-        "place": "528",
+        "place": "530",
         "team": "Tiki35",
         "time": "12:28:05.0"
       },
       {
-        "place": "529",
+        "place": "531",
         "team": "Empty nesters",
         "time": "12:28:08.0"
       },
       {
-        "place": "530",
+        "place": "532",
+        "team": "LakasWacheras",
+        "time": "12:28:26.7"
+      },
+      {
+        "place": "533",
         "team": "HPI-Nikkeisha",
         "time": "12:28:57.4"
       },
       {
-        "place": "531",
+        "place": "534",
+        "team": "baguettes",
+        "time": "12:28:59.2"
+      },
+      {
+        "place": "535",
+        "team": "今年こそは誰よりも早く",
+        "time": "12:30:21.8"
+      },
+      {
+        "place": "536",
+        "team": "WALK つらすぎて滅！",
+        "time": "12:30:29.8"
+      },
+      {
+        "place": "537",
+        "team": "BD3B",
+        "time": "12:30:50.7"
+      },
+      {
+        "place": "538",
         "team": "Walk and Talk",
         "time": "12:34:13.7"
       },
       {
-        "place": "532",
+        "place": "539",
         "team": "Team MESH",
         "time": "12:34:14.0"
       },
       {
-        "place": "533",
+        "place": "540",
         "team": "Professional Walkers - Unpaid",
         "time": "12:34:52.7"
       },
       {
-        "place": "534",
+        "place": "541",
         "team": "Ombligon",
         "time": "12:35:01.5"
       },
       {
-        "place": "535",
+        "place": "542",
         "team": "Team Likius",
         "time": "12:36:05.4"
       },
       {
-        "place": "536",
+        "place": "543",
+        "team": "ICOPA",
+        "time": "12:40:42.4"
+      },
+      {
+        "place": "544",
+        "team": "ICOPA2",
+        "time": "12:40:45.3"
+      },
+      {
+        "place": "545",
+        "team": "デリパ3年",
+        "time": "12:43:50.5"
+      },
+      {
+        "place": "546",
         "team": "Sunny Soles",
         "time": "12:44:04.1"
       },
       {
-        "place": "537",
+        "place": "547",
+        "team": "BBB",
+        "time": "12:44:11.5"
+      },
+      {
+        "place": "548",
+        "team": "AAA",
+        "time": "12:44:15.5"
+      },
+      {
+        "place": "549",
         "team": "SENCHA",
         "time": "12:44:47.5"
       },
       {
-        "place": "538",
+        "place": "550",
         "team": "Minamirinka Junior High",
         "time": "12:46:53.0"
       },
       {
-        "place": "539",
+        "place": "551",
         "team": "Happy Feet",
         "time": "12:56:37.1"
       }
