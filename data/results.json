@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T07:24:19.500Z",
+  "updated": "2026-10-17T07:30:40.085Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -150,63 +150,73 @@
       },
       {
         "place": "30",
+        "team": "Achilles Mongolia",
+        "time": "7:29:43.4"
+      },
+      {
+        "place": "31",
         "team": "o5 6e3 CTACA",
         "time": "7:30:10.1"
       },
       {
-        "place": "31",
+        "place": "32",
         "team": "buzzin’",
         "time": "7:34:46.6"
       },
       {
-        "place": "32",
+        "place": "33",
         "team": "NOS-DX",
         "time": "7:38:10.9"
       },
       {
-        "place": "33",
+        "place": "34",
         "team": "Yokoyama Striders",
         "time": "7:39:00.5"
       },
       {
-        "place": "34",
+        "place": "35",
         "team": "Hilton Tokyo Full-4",
         "time": "7:39:03.4"
       },
       {
-        "place": "35",
+        "place": "36",
         "team": "Turtle Power",
         "time": "7:42:53.5"
       },
       {
-        "place": "36",
+        "place": "37",
         "team": "とーふのすけ",
         "time": "7:44:26.6"
       },
       {
-        "place": "37",
+        "place": "38",
         "team": "Hilton Tokyo Full-3",
         "time": "7:46:39.0"
       },
       {
-        "place": "38",
+        "place": "39",
         "team": "MOYANA",
         "time": "7:57:52.0"
       },
       {
-        "place": "39",
+        "place": "40",
         "team": "Mona's Touch",
         "time": "8:01:01.3"
       },
       {
-        "place": "40",
+        "place": "41",
         "team": "Yamaheads",
         "time": "8:01:19.9"
       },
       {
-        "place": "41",
+        "place": "42",
         "team": "Bollywood Bubbles",
         "time": "8:10:47.3"
+      },
+      {
+        "place": "43",
+        "team": "ヤマソナーズ４人旅",
+        "time": "8:15:14.8"
       }
     ],
     "half": [
@@ -1187,181 +1197,221 @@
       },
       {
         "place": "196",
+        "team": "Team 本店営業部",
+        "time": "6:54:09.0"
+      },
+      {
+        "place": "197",
         "team": "Kinesin",
         "time": "6:55:56.9"
       },
       {
-        "place": "197",
+        "place": "198",
+        "team": "MS-Imai Nyanz",
+        "time": "6:56:33.7"
+      },
+      {
+        "place": "199",
         "team": "Jaguar Land Rover",
         "time": "6:56:49.5"
       },
       {
-        "place": "198",
+        "place": "200",
         "team": "チーム三色団子",
         "time": "6:57:10.5"
       },
       {
-        "place": "199",
+        "place": "201",
         "team": "Team Santos",
         "time": "6:57:31.8"
       },
       {
-        "place": "200",
+        "place": "202",
+        "team": "MS-Strangers in the Loop",
+        "time": "6:57:41.2"
+      },
+      {
+        "place": "203",
         "team": "New Horizons",
         "time": "7:00:50.8"
       },
       {
-        "place": "201",
+        "place": "204",
         "team": "full-vo1",
         "time": "7:02:54.1"
       },
       {
-        "place": "202",
+        "place": "205",
         "team": "仲通り44",
         "time": "7:06:26.1"
       },
       {
-        "place": "203",
+        "place": "206",
         "team": "YSC SUP Buddies",
         "time": "7:06:30.6"
       },
       {
-        "place": "204",
+        "place": "207",
         "team": "HPE-AS2withH",
         "time": "7:06:55.3"
       },
       {
-        "place": "205",
+        "place": "208",
+        "team": "Da Girls",
+        "time": "7:09:26.1"
+      },
+      {
+        "place": "209",
         "team": "Aimasho Rising stars ✨",
         "time": "7:13:45.4"
       },
       {
-        "place": "206",
+        "place": "210",
         "team": "ServiceNow-Where Are We Now?",
         "time": "7:16:29.0"
       },
       {
-        "place": "207",
+        "place": "211",
         "team": "LAURUS team Hankokies",
         "time": "7:16:38.7"
       },
       {
-        "place": "208",
+        "place": "212",
         "team": "Forvis Mazars",
         "time": "7:16:56.0"
       },
       {
-        "place": "209",
+        "place": "213",
         "team": "FPT 2",
         "time": "7:17:16.9"
       },
       {
-        "place": "210",
+        "place": "214",
         "team": "FPT 1",
         "time": "7:18:01.4"
       },
       {
-        "place": "211",
+        "place": "215",
         "team": "FPT 5",
         "time": "7:18:08.8"
       },
       {
-        "place": "212",
+        "place": "216",
         "team": "Servicenow - WebHunter",
         "time": "7:23:22.6"
       },
       {
-        "place": "213",
+        "place": "217",
+        "team": "テニス部SUNNY☆スマイル",
+        "time": "7:26:13.2"
+      },
+      {
+        "place": "218",
         "team": "HPE てくてくIB",
         "time": "7:27:33.1"
       },
       {
-        "place": "214",
+        "place": "219",
         "team": "HaHa Family",
         "time": "7:27:44.5"
       },
       {
-        "place": "215",
+        "place": "220",
         "team": "Kontraktor",
         "time": "7:28:22.8"
       },
       {
-        "place": "216",
+        "place": "221",
         "team": "HPI-ちーむぜっと",
         "time": "7:30:52.9"
       },
       {
-        "place": "217",
+        "place": "222",
         "team": "HPE-MS2",
         "time": "7:32:28.1"
       },
       {
-        "place": "218",
+        "place": "223",
         "team": "HPE-GTS1",
         "time": "7:32:59.8"
       },
       {
-        "place": "219",
+        "place": "224",
         "team": "JPM Tokyo MMKY",
         "time": "7:35:26.7"
       },
       {
-        "place": "220",
+        "place": "225",
         "team": "HPE-GTS2",
         "time": "7:35:28.1"
       },
       {
-        "place": "221",
+        "place": "226",
         "team": "HPE-MS1",
         "time": "7:35:53.8"
       },
       {
-        "place": "222",
+        "place": "227",
         "team": "FPT 7",
         "time": "7:37:54.6"
       },
       {
-        "place": "223",
+        "place": "228",
         "team": "HPE-TURU5150",
         "time": "7:37:56.5"
       },
       {
-        "place": "224",
+        "place": "229",
         "team": "FPT 8",
         "time": "7:38:12.1"
       },
       {
-        "place": "225",
+        "place": "230",
         "team": "HPI-ドリーム４",
         "time": "7:38:42.4"
       },
       {
-        "place": "226",
+        "place": "231",
+        "team": "FPT 6",
+        "time": "7:39:51.1"
+      },
+      {
+        "place": "232",
+        "team": "FC hime",
+        "time": "7:41:05.2"
+      },
+      {
+        "place": "233",
+        "team": "LAKELAND OUT OF OFFICE",
+        "time": "7:41:47.0"
+      },
+      {
+        "place": "234",
         "team": "HPE-ひじき",
         "time": "7:45:42.4"
       },
       {
-        "place": "227",
+        "place": "235",
         "team": "KPMG",
         "time": "7:53:53.8"
       },
       {
-        "place": "228",
+        "place": "236",
         "team": "HPE-PO",
         "time": "7:54:47.7"
       },
       {
-        "place": "229",
+        "place": "237",
         "team": "アールケイエンタープライズ",
         "time": "8:04:40.2"
       },
       {
-        "place": "230",
+        "place": "238",
         "team": "ロデオドライブ",
         "time": "8:04:43.1"
       },
       {
-        "place": "231",
+        "place": "239",
         "team": "Team AB",
         "time": "8:12:16.1"
       }
