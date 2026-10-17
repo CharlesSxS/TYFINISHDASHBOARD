@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T04:06:21.699Z",
+  "updated": "2026-10-17T04:12:22.826Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -202,48 +202,63 @@
       },
       {
         "place": "38",
+        "team": "CANCAN",
+        "time": "3:49:03.7"
+      },
+      {
+        "place": "39",
         "team": "千山",
         "time": "3:49:11.2"
       },
       {
-        "place": "39",
+        "place": "40",
         "team": "The Fellowship of the (Boxing) Ring",
         "time": "3:50:03.9"
       },
       {
-        "place": "40",
+        "place": "41",
         "team": "ServiceNow - Now on Tap",
         "time": "4:16:11.8"
       },
       {
-        "place": "41",
+        "place": "42",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "42",
+        "place": "43",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "43",
+        "place": "44",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "44",
+        "place": "45",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
       },
       {
-        "place": "45",
+        "place": "46",
         "team": "JPM  Yamanote Walkers",
         "time": "4:41:35.9"
       },
       {
-        "place": "46",
+        "place": "47",
         "team": "JPM Shi-Shi-Jam",
         "time": "4:41:38.9"
+      },
+      {
+        "place": "48",
+        "team": "Team Dorayaki",
+        "time": "4:47:23.9"
+      },
+      {
+        "place": "49",
+        "team": "Amhi Chalu Sanghatana",
+        "time": "4:56:53.7"
       }
     ],
     "quarter": [
@@ -681,6 +696,51 @@
         "place": "87",
         "team": "Conrad Tokyo 2",
         "time": "3:19:26.7"
+      },
+      {
+        "place": "88",
+        "team": "Poppies",
+        "time": "3:23:40.1"
+      },
+      {
+        "place": "89",
+        "team": "TEAM KAZ",
+        "time": "3:23:46.0"
+      },
+      {
+        "place": "90",
+        "team": "Totonou",
+        "time": "3:23:55.9"
+      },
+      {
+        "place": "91",
+        "team": "Gensler_MA LA TEAM",
+        "time": "3:24:16.9"
+      },
+      {
+        "place": "92",
+        "team": "Gensler  - Dark Siders",
+        "time": "3:24:24.7"
+      },
+      {
+        "place": "93",
+        "team": "Gensler-Sky Walkers",
+        "time": "3:24:29.0"
+      },
+      {
+        "place": "94",
+        "team": "MS-LYY",
+        "time": "3:25:36.2"
+      },
+      {
+        "place": "95",
+        "team": "山歩会2",
+        "time": "3:26:23.1"
+      },
+      {
+        "place": "96",
+        "team": "ヤマサン",
+        "time": "3:26:25.2"
       }
     ]
   },
