@@ -33,6 +33,9 @@ const cfg = JSON.parse(await readFile(cfgURL, "utf8"));
 
 /* ---- helpers ---- */
 const isDNF = t => /^(dnf|dns|dq)$/i.test(String(t || "").trim());
+// A real finish/elapsed time like "25:30", "1:23:45", "0:59:59.3".
+// Webscorer returns "-" (or blank) for teams still on course — NOT a finish.
+const isFinishTime = s => /^\d{1,2}(:\d{2}){1,2}(\.\d+)?$/.test(String(s == null ? "" : s).trim());
 function timeToSec(t) {
   if (!t || isDNF(t)) return Number.MAX_SAFE_INTEGER;
   const p = String(t).trim().split(":").map(Number);
@@ -137,9 +140,10 @@ async function buildResults() {
       const groups = (data.Results && data.Results.length) ? data.Results : [{ Racers: data.Racers || [] }];
       for (const g of groups) for (const r of (g.Racers || [])) {
         if (!r) continue;
-        if (isDNF(r.Time)) { retired[k]++; continue; }
-        if (!r.Time) continue;          // still on course
-        legs[k].push({ place: r.Place || "", team: teamName(r), time: r.Time });
+        const t = String(r.Time == null ? "" : r.Time).trim();
+        if (isDNF(t)) { retired[k]++; continue; }
+        if (!isFinishTime(t)) continue;   // blank, "-", or not a real time = still on course
+        legs[k].push({ place: r.Place || "", team: teamName(r), time: t });
       }
     } catch (e) {
       console.error(`results ${k} (${id}) failed: ${e.message}`);
