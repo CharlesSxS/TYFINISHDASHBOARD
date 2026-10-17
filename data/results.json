@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T05:30:38.484Z",
+  "updated": "2026-10-17T05:36:21.329Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -427,136 +427,156 @@
       },
       {
         "place": "78",
+        "team": "FI&CC Sales Division1",
+        "time": "5:01:38.7"
+      },
+      {
+        "place": "79",
+        "team": "MANチームハイボール",
+        "time": "5:02:02.9"
+      },
+      {
+        "place": "80",
+        "team": "MS-The Thankful Four",
+        "time": "5:03:21.1"
+      },
+      {
+        "place": "81",
         "team": "L TEAM",
         "time": "5:04:37.6"
       },
       {
-        "place": "79",
+        "place": "82",
         "team": "Decathlon Breeze Runners",
         "time": "5:04:57.9"
       },
       {
-        "place": "80",
+        "place": "83",
         "team": "Decathlon Cozy Pacers",
         "time": "5:05:14.9"
       },
       {
-        "place": "81",
+        "place": "84",
         "team": "SxS Summit & Beyond",
         "time": "5:07:30.3"
       },
       {
-        "place": "82",
+        "place": "85",
         "team": "レオナさん出産おめでとうメーン",
         "time": "5:11:32.4"
       },
       {
-        "place": "83",
+        "place": "86",
         "team": "Gaijin Walker's",
         "time": "5:12:24.3"
       },
       {
-        "place": "84",
+        "place": "87",
         "team": "未来徒歩会Half2",
         "time": "5:19:00.0"
       },
       {
-        "place": "85",
+        "place": "88",
         "team": "HPE-HEXA☆GON",
         "time": "5:19:31.0"
       },
       {
-        "place": "86",
+        "place": "89",
         "team": "HPE-HEXA★GON",
         "time": "5:19:35.5"
       },
       {
-        "place": "87",
+        "place": "90",
         "team": "Servicenow - The 3 amigos",
         "time": "5:28:23.4"
       },
       {
-        "place": "88",
+        "place": "91",
         "team": "Servicenow - DC Plumbers",
         "time": "5:30:13.2"
       },
       {
-        "place": "89",
+        "place": "92",
         "team": "ServiceNow-RGB軍団",
         "time": "5:36:43.2"
       },
       {
-        "place": "90",
+        "place": "93",
         "team": "CBRE Sole Mates",
         "time": "5:41:05.5"
       },
       {
-        "place": "91",
+        "place": "94",
         "team": "HPE-TED_APS_United",
         "time": "5:51:07.5"
       },
       {
-        "place": "92",
+        "place": "95",
         "team": "130鉄2",
         "time": "5:51:11.4"
       },
       {
-        "place": "93",
+        "place": "96",
         "team": "HPE APS Presales 2026",
         "time": "5:51:14.6"
       },
       {
-        "place": "94",
+        "place": "97",
         "team": "HPI-Cat3",
         "time": "5:55:11.4"
       },
       {
-        "place": "95",
+        "place": "98",
         "team": "HPI-Barbarians",
         "time": "5:55:17.3"
       },
       {
-        "place": "96",
+        "place": "99",
         "team": "てっちゃん　sisters",
         "time": "5:55:27.7"
       },
       {
-        "place": "97",
+        "place": "100",
         "team": "Team F",
         "time": "5:55:52.7"
       },
       {
-        "place": "98",
+        "place": "101",
         "team": "HPI-Cat1",
         "time": "5:56:30.9"
       },
       {
-        "place": "99",
+        "place": "102",
         "team": "HPI-Cat2",
         "time": "5:56:37.0"
       },
       {
-        "place": "100",
+        "place": "103",
         "team": "HPI-FY95ers",
         "time": "5:58:30.5"
       },
       {
-        "place": "101",
+        "place": "104",
+        "team": "130鉄①",
+        "time": "6:00:13.4"
+      },
+      {
+        "place": "105",
         "team": "赤い蹄",
         "time": "6:00:18.8"
       },
       {
-        "place": "102",
+        "place": "106",
         "team": "Sailor Meow",
         "time": "6:04:21.1"
       },
       {
-        "place": "103",
+        "place": "107",
         "team": "HPI-Chico-chan family",
         "time": "6:06:37.0"
       },
       {
-        "place": "104",
+        "place": "108",
         "team": "HPI-はっぴーぷる",
         "time": "6:09:32.9"
       }
