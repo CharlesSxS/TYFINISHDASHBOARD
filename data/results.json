@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T06:06:21.300Z",
+  "updated": "2026-10-17T06:12:21.538Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -45,28 +45,38 @@
       },
       {
         "place": "9",
+        "team": "Shinkansen",
+        "time": "6:05:43.3"
+      },
+      {
+        "place": "10",
         "team": "Adient B",
         "time": "6:05:54.1"
       },
       {
-        "place": "10",
+        "place": "11",
         "team": "葉山 HTRC",
         "time": "6:06:40.7"
       },
       {
-        "place": "11",
+        "place": "12",
         "team": "Woven by Toyota 1",
         "time": "6:17:31.5"
       },
       {
-        "place": "12",
+        "place": "13",
         "team": "Blue Eagles!",
         "time": "6:17:53.5"
       },
       {
-        "place": "13",
+        "place": "14",
         "team": "Jaguar Land Rover",
         "time": "6:22:39.5"
+      },
+      {
+        "place": "15",
+        "team": "Indy Run Club",
+        "time": "6:38:21.2"
       }
     ],
     "half": [
@@ -562,193 +572,228 @@
       },
       {
         "place": "99",
+        "team": "SFDC: Off The Rails",
+        "time": "5:36:19.9"
+      },
+      {
+        "place": "100",
         "team": "ServiceNow-RGB軍団",
         "time": "5:36:43.2"
       },
       {
-        "place": "100",
+        "place": "101",
+        "team": "ピンクエンジェルス1",
+        "time": "5:39:06.8"
+      },
+      {
+        "place": "102",
+        "team": "ピンクエンジェルス2",
+        "time": "5:39:18.4"
+      },
+      {
+        "place": "103",
         "team": "CBRE Sole Mates",
         "time": "5:41:05.5"
       },
       {
-        "place": "101",
+        "place": "104",
         "team": "NEXGEN Walkaholics",
         "time": "5:48:44.0"
       },
       {
-        "place": "102",
+        "place": "105",
         "team": "Nexgen Kizuna Walkers",
         "time": "5:48:47.7"
       },
       {
-        "place": "103",
+        "place": "106",
         "team": "HPE-TED_APS_United",
         "time": "5:51:07.5"
       },
       {
-        "place": "104",
+        "place": "107",
         "team": "130鉄2",
         "time": "5:51:11.4"
       },
       {
-        "place": "105",
+        "place": "108",
         "team": "HPE APS Presales 2026",
         "time": "5:51:14.6"
       },
       {
-        "place": "106",
+        "place": "109",
         "team": "SThree 3",
         "time": "5:51:15.5"
       },
       {
-        "place": "107",
+        "place": "110",
         "team": "Sthree Japan #4",
         "time": "5:51:20.1"
       },
       {
-        "place": "108",
+        "place": "111",
         "team": "SThree 1",
         "time": "5:51:25.9"
       },
       {
-        "place": "109",
+        "place": "112",
         "team": "SThree 2",
         "time": "5:51:33.5"
       },
       {
-        "place": "110",
+        "place": "113",
         "team": "SThree 7",
         "time": "5:51:55.4"
       },
       {
-        "place": "111",
+        "place": "114",
         "team": "SThree 8",
         "time": "5:52:07.1"
       },
       {
-        "place": "112",
+        "place": "115",
+        "team": "ピンクエンジェルス3",
+        "time": "5:52:54.6"
+      },
+      {
+        "place": "116",
         "team": "HPI-Cat3",
         "time": "5:55:11.4"
       },
       {
-        "place": "113",
+        "place": "117",
         "team": "HPI-Barbarians",
         "time": "5:55:17.3"
       },
       {
-        "place": "114",
+        "place": "118",
         "team": "てっちゃん　sisters",
         "time": "5:55:27.7"
       },
       {
-        "place": "115",
+        "place": "119",
         "team": "Team F",
         "time": "5:55:52.7"
       },
       {
-        "place": "116",
+        "place": "120",
         "team": "HPI-Cat1",
         "time": "5:56:30.9"
       },
       {
-        "place": "117",
+        "place": "121",
         "team": "HPI-Cat2",
         "time": "5:56:37.0"
       },
       {
-        "place": "118",
+        "place": "122",
         "team": "HPI-FY95ers",
         "time": "5:58:30.5"
       },
       {
-        "place": "119",
+        "place": "123",
         "team": "130鉄①",
         "time": "6:00:13.4"
       },
       {
-        "place": "120",
+        "place": "124",
         "team": "赤い蹄",
         "time": "6:00:18.8"
       },
       {
-        "place": "121",
+        "place": "125",
         "team": "Sailor Meow",
         "time": "6:04:21.1"
       },
       {
-        "place": "122",
+        "place": "126",
         "team": "HPI-Chico-chan family",
         "time": "6:06:37.0"
       },
       {
-        "place": "123",
+        "place": "127",
         "team": "HPI-はっぴーぷる",
         "time": "6:09:32.9"
       },
       {
-        "place": "124",
+        "place": "128",
         "team": "Croissants & Dim Sum",
         "time": "6:13:53.6"
       },
       {
-        "place": "125",
+        "place": "129",
         "team": "CBRE One Step Ahead",
         "time": "6:15:04.6"
       },
       {
-        "place": "126",
+        "place": "130",
         "team": "CBRE Walk Warriors",
         "time": "6:15:09.3"
       },
       {
-        "place": "127",
+        "place": "131",
         "team": "CBRE GWS A Team",
         "time": "6:15:18.2"
       },
       {
-        "place": "128",
+        "place": "132",
         "team": "Servicenow - JLS Ladies",
         "time": "6:15:51.0"
       },
       {
-        "place": "129",
+        "place": "133",
         "team": "ハーフ2",
         "time": "6:15:59.3"
       },
       {
-        "place": "130",
+        "place": "134",
         "team": "CBRE The Giving Feet",
         "time": "6:16:10.1"
       },
       {
-        "place": "131",
+        "place": "135",
         "team": "ハーフ1",
         "time": "6:16:18.1"
       },
       {
-        "place": "132",
+        "place": "136",
         "team": "Servicenow - NeverWalkAlone",
         "time": "6:16:18.4"
       },
       {
-        "place": "133",
+        "place": "137",
         "team": "SERVICE Walkflow",
         "time": "6:16:24.9"
       },
       {
-        "place": "134",
+        "place": "138",
         "team": "ServiceNow- Team Yasu",
         "time": "6:20:00.0"
       },
       {
-        "place": "135",
+        "place": "139",
         "team": "ServiceNow - R246 リボーン",
         "time": "6:27:45.9"
       },
       {
-        "place": "136",
+        "place": "140",
+        "team": "Door Decoders",
+        "time": "6:33:01.1"
+      },
+      {
+        "place": "141",
+        "team": "Adient F",
+        "time": "6:37:31.8"
+      },
+      {
+        "place": "142",
         "team": "HPI-The Happiest People",
         "time": "6:40:32.4"
+      },
+      {
+        "place": "143",
+        "team": "ServiceNow-走るNow",
+        "time": "6:47:03.4"
       }
     ],
     "quarter": [
