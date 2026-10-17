@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:12:20.839Z",
+  "updated": "2026-10-17T03:18:20.325Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -265,6 +265,26 @@
         "place": "35",
         "team": "Team Luka",
         "time": "2:26:40.2"
+      },
+      {
+        "place": "36",
+        "team": "YokotaThon",
+        "time": "2:26:52.4"
+      },
+      {
+        "place": "37",
+        "team": "Sparkling Squad",
+        "time": "2:27:45.9"
+      },
+      {
+        "place": "38",
+        "team": "On E",
+        "time": "2:28:06.4"
+      },
+      {
+        "place": "39",
+        "team": "KSゆる歩き",
+        "time": "2:32:42.9"
       }
     ]
   },
