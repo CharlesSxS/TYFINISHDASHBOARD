@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T08:00:55.125Z",
+  "updated": "2026-10-17T08:06:19.981Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -295,38 +295,58 @@
       },
       {
         "place": "59",
+        "team": "JTSC BLUE",
+        "time": "8:32:48.5"
+      },
+      {
+        "place": "60",
         "team": "GKAJohn",
         "time": "8:32:53.4"
       },
       {
-        "place": "60",
+        "place": "61",
         "team": "GKA Taka's",
         "time": "8:37:31.6"
       },
       {
-        "place": "61",
+        "place": "62",
         "team": "GKA - Kissler",
         "time": "8:37:38.6"
       },
       {
-        "place": "62",
+        "place": "63",
         "team": "The Walking Crooners",
         "time": "8:38:37.4"
       },
       {
-        "place": "63",
+        "place": "64",
         "team": "Yamalamadingdong",
         "time": "8:42:09.1"
       },
       {
-        "place": "64",
+        "place": "65",
+        "team": "谷を越え、濱の向こうの高みへ",
+        "time": "8:42:36.0"
+      },
+      {
+        "place": "66",
         "team": "Hilton Tokyo Full-5",
         "time": "8:46:05.0"
       },
       {
-        "place": "65",
+        "place": "67",
         "team": "Bucket Brigade",
         "time": "8:47:23.0"
+      },
+      {
+        "place": "68",
+        "team": "HPI-Amigos",
+        "time": "8:50:43.7"
+      },
+      {
+        "place": "69",
+        "team": "Yamallama Dingdongs",
+        "time": "8:52:57.3"
       }
     ],
     "half": [
