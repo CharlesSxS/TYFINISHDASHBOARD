@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T02:48:21.155Z",
+  "updated": "2026-10-17T02:54:22.277Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -145,6 +145,31 @@
         "place": "14",
         "team": "On A",
         "time": "2:01:06.4"
+      },
+      {
+        "place": "15",
+        "team": "JPM Malani",
+        "time": "2:03:49.8"
+      },
+      {
+        "place": "16",
+        "team": "BD_ネコまみれ",
+        "time": "2:04:40.3"
+      },
+      {
+        "place": "17",
+        "team": "ABB High Torque Heroes",
+        "time": "2:05:18.9"
+      },
+      {
+        "place": "18",
+        "team": "High Power Runners",
+        "time": "2:05:21.0"
+      },
+      {
+        "place": "19",
+        "team": "Team Yellow Junior",
+        "time": "2:07:07.2"
       }
     ]
   },
