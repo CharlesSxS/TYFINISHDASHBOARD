@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T02:42:21.172Z",
+  "updated": "2026-10-17T02:48:21.155Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -41,31 +41,36 @@
       },
       {
         "place": "8",
+        "team": "Team Yellow A",
+        "time": "2:17:14.3"
+      },
+      {
+        "place": "9",
         "team": "Hilton Tokyo Half-3",
         "time": "2:39:07.9"
       },
       {
-        "place": "9",
+        "place": "10",
         "team": "Hilton Tokyo Half-1",
         "time": "2:41:06.5"
       },
       {
-        "place": "10",
+        "place": "11",
         "team": "ServiceNow - Flow Forward",
         "time": "2:41:16.2"
       },
       {
-        "place": "11",
+        "place": "12",
         "team": "CBRE GWS B Team",
         "time": "3:05:29.4"
       },
       {
-        "place": "12",
+        "place": "13",
         "team": "ServiceNow-全速前進ヨーソロー",
         "time": "3:16:38.2"
       },
       {
-        "place": "13",
+        "place": "14",
         "team": "HPI-Sprain No Gain",
         "time": "3:29:24.1"
       }
@@ -130,6 +135,16 @@
         "place": "12",
         "team": "Man Team Melting Pot",
         "time": "1:56:26.8"
+      },
+      {
+        "place": "13",
+        "team": "Kasai KnightRidersw",
+        "time": "1:58:24.6"
+      },
+      {
+        "place": "14",
+        "team": "On A",
+        "time": "2:01:06.4"
       }
     ]
   },
