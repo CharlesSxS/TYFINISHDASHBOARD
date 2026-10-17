@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T08:30:39.361Z",
+  "updated": "2026-10-17T08:36:22.971Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -485,8 +485,33 @@
       },
       {
         "place": "97",
+        "team": "Conrad Tokyo 5",
+        "time": "9:10:48.3"
+      },
+      {
+        "place": "98",
+        "team": "Conrad Tokyo 4",
+        "time": "9:12:20.2"
+      },
+      {
+        "place": "99",
+        "team": "JPM Momentum Bull",
+        "time": "9:12:46.2"
+      },
+      {
+        "place": "100",
         "team": "ESET Japan",
         "time": "9:14:32.8"
+      },
+      {
+        "place": "101",
+        "team": "Full Duration",
+        "time": "9:22:36.0"
+      },
+      {
+        "place": "102",
+        "team": "Duration Risk",
+        "time": "9:22:44.1"
       }
     ],
     "half": [
