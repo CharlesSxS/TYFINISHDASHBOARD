@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T12:36:23.506Z",
+  "updated": "2026-10-17T12:42:21.427Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -2745,96 +2745,101 @@
       },
       {
         "place": "549",
+        "team": "KPMG Team 13",
+        "time": "12:36:17.2"
+      },
+      {
+        "place": "550",
         "team": "ICOPA",
         "time": "12:40:42.4"
       },
       {
-        "place": "550",
+        "place": "551",
         "team": "ICOPA2",
         "time": "12:40:45.3"
       },
       {
-        "place": "551",
+        "place": "552",
         "team": "デリパ3年",
         "time": "12:43:50.5"
       },
       {
-        "place": "552",
+        "place": "553",
         "team": "Sunny Soles",
         "time": "12:44:04.1"
       },
       {
-        "place": "553",
+        "place": "554",
         "team": "BBB",
         "time": "12:44:11.5"
       },
       {
-        "place": "554",
+        "place": "555",
         "team": "AAA",
         "time": "12:44:15.5"
       },
       {
-        "place": "555",
+        "place": "556",
         "team": "SENCHA",
         "time": "12:44:47.5"
       },
       {
-        "place": "556",
+        "place": "557",
         "team": "Minamirinka Junior High",
         "time": "12:46:53.0"
       },
       {
-        "place": "557",
+        "place": "558",
         "team": "Happy Feet",
         "time": "12:56:37.1"
       },
       {
-        "place": "558",
+        "place": "559",
         "team": "御雑煮軍団 Team 6",
         "time": "13:02:45.2"
       },
       {
-        "place": "559",
+        "place": "560",
         "team": "御雑煮軍団 Team 7",
         "time": "13:03:23.0"
       },
       {
-        "place": "560",
+        "place": "561",
         "team": "HPE-海苔巻きロケット",
         "time": "13:11:07.7"
       },
       {
-        "place": "561",
+        "place": "562",
         "team": "御雑煮軍団 Team 5",
         "time": "13:15:05.1"
       },
       {
-        "place": "562",
+        "place": "563",
         "team": "御雑煮軍団 Team 3",
         "time": "13:15:06.7"
       },
       {
-        "place": "563",
+        "place": "564",
         "team": "御雑煮軍団 Team 1",
         "time": "13:15:11.6"
       },
       {
-        "place": "564",
+        "place": "565",
         "team": "御雑煮軍団 Team 4",
         "time": "13:15:27.1"
       },
       {
-        "place": "565",
+        "place": "566",
         "team": "Craic on Track",
         "time": "13:15:49.8"
       },
       {
-        "place": "566",
+        "place": "567",
         "team": "御雑煮軍団 Team 2",
         "time": "13:16:17.3"
       },
       {
-        "place": "567",
+        "place": "568",
         "team": "French Touche",
         "time": "13:17:51.5"
       }
