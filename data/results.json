@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:24:21.249Z",
+  "updated": "2026-10-17T03:30:41.843Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -71,26 +71,46 @@
       },
       {
         "place": "14",
+        "team": "BAT (Team A) Huff & Puff",
+        "time": "3:23:47.1"
+      },
+      {
+        "place": "15",
+        "team": "BAT Ops RG",
+        "time": "3:24:06.3"
+      },
+      {
+        "place": "16",
+        "team": "Swiss-Japan Faces of Hope",
+        "time": "3:24:07.1"
+      },
+      {
+        "place": "17",
+        "team": "BAT Striders",
+        "time": "3:24:44.1"
+      },
+      {
+        "place": "18",
         "team": "HPI-Sprain No Gain",
         "time": "3:29:24.1"
       },
       {
-        "place": "15",
+        "place": "19",
         "team": "日本BD APMチーム",
         "time": "3:30:55.7"
       },
       {
-        "place": "16",
+        "place": "20",
         "team": "Adient C",
         "time": "3:38:47.5"
       },
       {
-        "place": "17",
+        "place": "21",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
       },
       {
-        "place": "18",
+        "place": "22",
         "team": "千山",
         "time": "3:49:11.2"
       }
@@ -315,6 +335,31 @@
         "place": "44",
         "team": "Breast Friends Forever",
         "time": "2:37:57.8"
+      },
+      {
+        "place": "45",
+        "team": "LAURUS Big Jim",
+        "time": "2:40:03.3"
+      },
+      {
+        "place": "46",
+        "team": "Pints for a Purpose",
+        "time": "2:40:57.4"
+      },
+      {
+        "place": "47",
+        "team": "お散歩部",
+        "time": "2:41:13.6"
+      },
+      {
+        "place": "48",
+        "team": "MS-Jersey-City",
+        "time": "2:44:34.9"
+      },
+      {
+        "place": "49",
+        "team": "Embassy of Switzerland in Japan",
+        "time": "2:45:04.9"
       }
     ]
   },
