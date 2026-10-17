@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T06:00:47.763Z",
+  "updated": "2026-10-17T06:06:21.300Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -60,6 +60,11 @@
       },
       {
         "place": "12",
+        "team": "Blue Eagles!",
+        "time": "6:17:53.5"
+      },
+      {
+        "place": "13",
         "team": "Jaguar Land Rover",
         "time": "6:22:39.5"
       }
@@ -707,31 +712,41 @@
       },
       {
         "place": "129",
+        "team": "ハーフ2",
+        "time": "6:15:59.3"
+      },
+      {
+        "place": "130",
         "team": "CBRE The Giving Feet",
         "time": "6:16:10.1"
       },
       {
-        "place": "130",
+        "place": "131",
+        "team": "ハーフ1",
+        "time": "6:16:18.1"
+      },
+      {
+        "place": "132",
         "team": "Servicenow - NeverWalkAlone",
         "time": "6:16:18.4"
       },
       {
-        "place": "131",
+        "place": "133",
         "team": "SERVICE Walkflow",
         "time": "6:16:24.9"
       },
       {
-        "place": "132",
+        "place": "134",
         "team": "ServiceNow- Team Yasu",
         "time": "6:20:00.0"
       },
       {
-        "place": "133",
+        "place": "135",
         "team": "ServiceNow - R246 リボーン",
         "time": "6:27:45.9"
       },
       {
-        "place": "134",
+        "place": "136",
         "team": "HPI-The Happiest People",
         "time": "6:40:32.4"
       }
