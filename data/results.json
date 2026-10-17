@@ -1,8 +1,19 @@
 {
-  "updated": "2026-10-17T03:54:20.299Z",
+  "updated": "2026-10-17T04:00:47.714Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
-    "full": [],
+    "full": [
+      {
+        "place": "1",
+        "team": "Hilton Tokyo Full-2",
+        "time": "4:48:20.0"
+      },
+      {
+        "place": "2",
+        "team": "Hilton Tokyo Half-4",
+        "time": "4:48:23.7"
+      }
+    ],
     "half": [
       {
         "place": "1",
@@ -126,81 +137,96 @@
       },
       {
         "place": "25",
+        "team": "MS-Biriyani Bullet Train 1",
+        "time": "3:28:38.0"
+      },
+      {
+        "place": "26",
+        "team": "Team Walkie-Talkies",
+        "time": "3:29:08.3"
+      },
+      {
+        "place": "27",
         "team": "HPI-Sprain No Gain",
         "time": "3:29:24.1"
       },
       {
-        "place": "26",
+        "place": "28",
         "team": "Yama Walkers",
         "time": "3:29:32.3"
       },
       {
-        "place": "27",
+        "place": "29",
         "team": "Trail Blazers",
         "time": "3:30:05.1"
       },
       {
-        "place": "28",
+        "place": "30",
         "team": "日本BD APMチーム",
         "time": "3:30:55.7"
       },
       {
-        "place": "29",
+        "place": "31",
         "team": "Fantastic Four",
         "time": "3:32:38.1"
       },
       {
-        "place": "30",
+        "place": "32",
         "team": "Aon Japan",
         "time": "3:35:47.7"
       },
       {
-        "place": "31",
+        "place": "33",
         "team": "Adient C",
         "time": "3:38:47.5"
       },
       {
-        "place": "32",
+        "place": "34",
         "team": "outdoor-fun",
         "time": "3:41:27.8"
       },
       {
-        "place": "33",
+        "place": "35",
+        "team": "Fun",
+        "time": "3:42:45.2"
+      },
+      {
+        "place": "36",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
       },
       {
-        "place": "34",
+        "place": "37",
         "team": "千山",
         "time": "3:49:11.2"
       },
       {
-        "place": "35",
+        "place": "38",
         "team": "The Fellowship of the (Boxing) Ring",
         "time": "3:50:03.9"
       },
       {
-        "place": "36",
+        "place": "39",
         "team": "ServiceNow - Now on Tap",
         "time": "4:16:11.8"
       },
       {
-        "place": "37",
+        "place": "40",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "38",
+        "place": "41",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "39",
+        "place": "42",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "40",
+        "place": "43",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
       }
@@ -565,6 +591,56 @@
         "place": "72",
         "team": "BD SKKM Family",
         "time": "3:08:37.3"
+      },
+      {
+        "place": "73",
+        "team": "help alliance Japan B",
+        "time": "3:10:12.2"
+      },
+      {
+        "place": "74",
+        "team": "MAN Team L2-B",
+        "time": "3:10:29.5"
+      },
+      {
+        "place": "75",
+        "team": "MAN Team L2-C",
+        "time": "3:10:32.1"
+      },
+      {
+        "place": "76",
+        "team": "Man Team L2-A",
+        "time": "3:10:35.8"
+      },
+      {
+        "place": "77",
+        "team": "CAP うさぎとタートルズ（LOVEIt & Turtles）",
+        "time": "3:10:46.4"
+      },
+      {
+        "place": "78",
+        "team": "MF-YOKOHAMA_A",
+        "time": "3:10:52.6"
+      },
+      {
+        "place": "79",
+        "team": "Decathlon Easy Peasy #1",
+        "time": "3:12:35.3"
+      },
+      {
+        "place": "80",
+        "team": "Decathlon Easy Peasy #2",
+        "time": "3:12:37.7"
+      },
+      {
+        "place": "81",
+        "team": "LAURUS Superheroes",
+        "time": "3:14:53.9"
+      },
+      {
+        "place": "82",
+        "team": "Mimi",
+        "time": "3:15:12.7"
       }
     ]
   },
