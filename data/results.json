@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T09:18:21.477Z",
+  "updated": "2026-10-17T09:24:21.466Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -630,198 +630,273 @@
       },
       {
         "place": "126",
+        "team": "Love & Hustle",
+        "time": "9:21:25.8"
+      },
+      {
+        "place": "127",
         "team": "Chicken Warriors",
         "time": "9:21:47.4"
       },
       {
-        "place": "127",
+        "place": "128",
         "team": "Full Duration",
         "time": "9:22:36.0"
       },
       {
-        "place": "128",
+        "place": "129",
         "team": "Duration Risk",
         "time": "9:22:44.1"
       },
       {
-        "place": "129",
+        "place": "130",
         "team": "Altera",
         "time": "9:24:03.6"
       },
       {
-        "place": "130",
+        "place": "131",
         "team": "犬猿の仲良し",
         "time": "9:25:09.6"
       },
       {
-        "place": "131",
+        "place": "132",
         "team": "Embassy of Canada/カナダ大使館",
         "time": "9:26:46.6"
       },
       {
-        "place": "132",
+        "place": "133",
         "team": "Cirque du Sore Legs",
         "time": "9:26:54.5"
       },
       {
-        "place": "133",
+        "place": "134",
         "team": "The Hikers",
         "time": "9:30:14.2"
       },
       {
-        "place": "134",
+        "place": "135",
         "team": "Apollo",
         "time": "9:30:23.0"
       },
       {
-        "place": "135",
+        "place": "136",
         "team": "Omnissa",
         "time": "9:32:20.1"
       },
       {
-        "place": "136",
+        "place": "137",
         "team": "BREXA Technology 宇都宮支店#3",
         "time": "9:32:58.2"
       },
       {
-        "place": "137",
+        "place": "138",
         "team": "Los Mois",
         "time": "9:34:37.0"
       },
       {
-        "place": "138",
+        "place": "139",
         "team": "HPE-Hinoeuma",
         "time": "9:35:24.8"
       },
       {
-        "place": "139",
+        "place": "140",
+        "team": "Crossbridge Education",
+        "time": "9:35:38.2"
+      },
+      {
+        "place": "141",
         "team": "KARL STORZ WAVE 2",
         "time": "9:36:16.0"
       },
       {
-        "place": "140",
+        "place": "142",
         "team": "KARL STORZ WAVE1",
         "time": "9:36:19.4"
       },
       {
-        "place": "141",
+        "place": "143",
         "team": "Revenge of the Famichiki",
         "time": "9:37:51.1"
       },
       {
-        "place": "142",
+        "place": "144",
         "team": "Team Lakota",
         "time": "9:38:08.6"
       },
       {
-        "place": "143",
+        "place": "145",
         "team": "大妻嵐山おやじの会",
         "time": "9:38:55.8"
       },
       {
-        "place": "144",
+        "place": "146",
         "team": "Wine Blonde",
         "time": "9:39:53.7"
       },
       {
-        "place": "145",
+        "place": "147",
         "team": "MF-YOKOHAMA_B",
         "time": "9:40:59.2"
       },
       {
-        "place": "146",
+        "place": "148",
         "team": "Okecchans",
         "time": "9:42:07.7"
       },
       {
-        "place": "147",
+        "place": "149",
         "team": "Yummython",
         "time": "9:43:52.6"
       },
       {
-        "place": "148",
+        "place": "150",
         "team": "Yamabants",
         "time": "9:44:11.3"
       },
       {
-        "place": "149",
+        "place": "151",
         "team": "Whining Wanderers",
         "time": "9:45:47.1"
       },
       {
-        "place": "150",
+        "place": "152",
+        "team": "Famimart Friends",
+        "time": "9:48:23.0"
+      },
+      {
+        "place": "153",
         "team": "Earth Walker",
         "time": "9:51:28.7"
       },
       {
-        "place": "151",
+        "place": "154",
+        "team": "Team crossroads",
+        "time": "9:51:34.4"
+      },
+      {
+        "place": "155",
         "team": "F&K",
         "time": "9:53:23.5"
       },
       {
-        "place": "152",
+        "place": "156",
         "team": "TOIN21/4-2",
         "time": "9:53:51.4"
       },
       {
-        "place": "153",
+        "place": "157",
         "team": "TOIN21/4-1",
         "time": "9:53:57.8"
       },
       {
-        "place": "154",
+        "place": "158",
         "team": "TOIN21/4-3",
         "time": "9:54:06.8"
       },
       {
-        "place": "155",
+        "place": "159",
         "team": "GreenBeans C",
         "time": "9:54:14.7"
       },
       {
-        "place": "156",
+        "place": "160",
         "team": "GreenBeans B",
         "time": "9:54:17.3"
       },
       {
-        "place": "157",
+        "place": "161",
         "team": "GreenBeans A",
         "time": "9:54:25.4"
       },
       {
-        "place": "158",
+        "place": "162",
         "team": "GKA Jackson",
         "time": "9:56:44.8"
       },
       {
-        "place": "159",
+        "place": "163",
+        "team": "ちーむりーまん",
+        "time": "9:57:12.2"
+      },
+      {
+        "place": "164",
+        "team": "走らない勇気",
+        "time": "9:58:13.6"
+      },
+      {
+        "place": "165",
+        "team": "桃色ウォーカーズ。",
+        "time": "9:58:24.4"
+      },
+      {
+        "place": "166",
+        "team": "桃色ほろよいウォーチャーズ",
+        "time": "9:59:18.8"
+      },
+      {
+        "place": "167",
         "team": "HPI-Team Nack",
         "time": "9:59:34.3"
       },
       {
-        "place": "160",
+        "place": "168",
+        "team": "Striders Bhai - 1",
+        "time": "10:01:03.4"
+      },
+      {
+        "place": "169",
+        "team": "Guy & Miya",
+        "time": "10:01:41.3"
+      },
+      {
+        "place": "170",
         "team": "HPI-e-holic2",
         "time": "10:02:25.5"
       },
       {
-        "place": "161",
+        "place": "171",
         "team": "Stride Sisters",
         "time": "10:02:50.5"
       },
       {
-        "place": "162",
+        "place": "172",
         "team": "The Goofs",
         "time": "10:04:00.1"
       },
       {
-        "place": "163",
+        "place": "173",
         "team": "HPI-GOTEN",
         "time": "10:06:37.9"
       },
       {
-        "place": "164",
+        "place": "174",
+        "team": "HPI-e-holic②",
+        "time": "10:07:12.4"
+      },
+      {
+        "place": "175",
         "team": "HPI-OTOKOMAE",
         "time": "10:07:47.8"
+      },
+      {
+        "place": "176",
+        "team": "Wilson-Coakley",
+        "time": "10:10:54.9"
+      },
+      {
+        "place": "177",
+        "team": "Coakley-Wilson",
+        "time": "10:11:08.3"
+      },
+      {
+        "place": "178",
+        "team": "GKA James",
+        "time": "10:11:11.6"
+      },
+      {
+        "place": "179",
+        "team": "Here I am walk you like a hurricane",
+        "time": "10:11:33.9"
       }
     ],
     "half": [
