@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:36:19.596Z",
+  "updated": "2026-10-17T03:42:20.740Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -61,81 +61,101 @@
       },
       {
         "place": "12",
+        "team": "Team Next Stage",
+        "time": "3:04:26.6"
+      },
+      {
+        "place": "13",
         "team": "CBRE GWS B Team",
         "time": "3:05:29.4"
       },
       {
-        "place": "13",
+        "place": "14",
+        "team": "Orion",
+        "time": "3:06:17.2"
+      },
+      {
+        "place": "15",
         "team": "ServiceNow-全速前進ヨーソロー",
         "time": "3:16:38.2"
       },
       {
-        "place": "14",
+        "place": "16",
         "team": "Cardif Walktuaries",
         "time": "3:16:40.0"
       },
       {
-        "place": "15",
+        "place": "17",
         "team": "BAT (Team A) Huff & Puff",
         "time": "3:23:47.1"
       },
       {
-        "place": "16",
+        "place": "18",
         "team": "BAT Ops RG",
         "time": "3:24:06.3"
       },
       {
-        "place": "17",
+        "place": "19",
         "team": "Swiss-Japan Faces of Hope",
         "time": "3:24:07.1"
       },
       {
-        "place": "18",
+        "place": "20",
         "team": "BAT Striders",
         "time": "3:24:44.1"
       },
       {
-        "place": "19",
+        "place": "21",
         "team": "HPI-Sprain No Gain",
         "time": "3:29:24.1"
       },
       {
-        "place": "20",
+        "place": "22",
         "team": "日本BD APMチーム",
         "time": "3:30:55.7"
       },
       {
-        "place": "21",
+        "place": "23",
+        "team": "Aon Japan",
+        "time": "3:35:47.7"
+      },
+      {
+        "place": "24",
         "team": "Adient C",
         "time": "3:38:47.5"
       },
       {
-        "place": "22",
+        "place": "25",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
       },
       {
-        "place": "23",
+        "place": "26",
         "team": "千山",
         "time": "3:49:11.2"
       },
       {
-        "place": "24",
+        "place": "27",
+        "team": "ServiceNow - Now on Tap",
+        "time": "4:16:11.8"
+      },
+      {
+        "place": "28",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "25",
+        "place": "29",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "26",
+        "place": "30",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "27",
+        "place": "31",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
       }
@@ -405,6 +425,36 @@
         "place": "53",
         "team": "チャプチェ",
         "time": "2:50:42.8"
+      },
+      {
+        "place": "54",
+        "team": "Distri-Booters",
+        "time": "2:52:01.0"
+      },
+      {
+        "place": "55",
+        "team": "Team Holland",
+        "time": "2:53:05.8"
+      },
+      {
+        "place": "56",
+        "team": "SFDC PS Team3",
+        "time": "2:53:23.2"
+      },
+      {
+        "place": "57",
+        "team": "YDAD",
+        "time": "2:54:13.3"
+      },
+      {
+        "place": "58",
+        "team": "ちはやふるBD Walkers",
+        "time": "2:55:11.9"
+      },
+      {
+        "place": "59",
+        "team": "龍驤 （ロンシャン）",
+        "time": "2:56:11.0"
       }
     ]
   },
