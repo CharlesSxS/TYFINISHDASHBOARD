@@ -1,6 +1,6 @@
 {
-  "_comment": "(c) 2026 SxS Partners. Race IDs for the Tokyo Yamathon 2026 dashboard. startLists (roster/Teams In) and results (finishers) are set to the same three per-course races.",
+  "_comment": "(c) 2026 SxS Partners. Race IDs for the Tokyo Yamathon 2026 dashboard. startLists (roster/Teams In) and results (live finishers, separate timing races posted race morning).",
   "startLists": { "full": "451840", "half": "452036", "quarter": "451063" },
-  "results":    { "full": "451840", "half": "452036", "quarter": "451063" },
+  "results":    { "full": "452273", "half": "452274", "quarter": "452288" },
   "tracking":   ["432537", "434355"]
 }
