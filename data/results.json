@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T04:00:47.714Z",
+  "updated": "2026-10-17T04:06:21.699Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -157,78 +157,93 @@
       },
       {
         "place": "29",
+        "team": "MS-Shiohara's",
+        "time": "3:29:55.9"
+      },
+      {
+        "place": "30",
         "team": "Trail Blazers",
         "time": "3:30:05.1"
       },
       {
-        "place": "30",
+        "place": "31",
         "team": "日本BD APMチーム",
         "time": "3:30:55.7"
       },
       {
-        "place": "31",
+        "place": "32",
         "team": "Fantastic Four",
         "time": "3:32:38.1"
       },
       {
-        "place": "32",
+        "place": "33",
         "team": "Aon Japan",
         "time": "3:35:47.7"
       },
       {
-        "place": "33",
+        "place": "34",
         "team": "Adient C",
         "time": "3:38:47.5"
       },
       {
-        "place": "34",
+        "place": "35",
         "team": "outdoor-fun",
         "time": "3:41:27.8"
       },
       {
-        "place": "35",
+        "place": "36",
         "team": "Fun",
         "time": "3:42:45.2"
       },
       {
-        "place": "36",
+        "place": "37",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
       },
       {
-        "place": "37",
+        "place": "38",
         "team": "千山",
         "time": "3:49:11.2"
       },
       {
-        "place": "38",
+        "place": "39",
         "team": "The Fellowship of the (Boxing) Ring",
         "time": "3:50:03.9"
       },
       {
-        "place": "39",
+        "place": "40",
         "team": "ServiceNow - Now on Tap",
         "time": "4:16:11.8"
       },
       {
-        "place": "40",
+        "place": "41",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "41",
+        "place": "42",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "42",
+        "place": "43",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "43",
+        "place": "44",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
+      },
+      {
+        "place": "45",
+        "team": "JPM  Yamanote Walkers",
+        "time": "4:41:35.9"
+      },
+      {
+        "place": "46",
+        "team": "JPM Shi-Shi-Jam",
+        "time": "4:41:38.9"
       }
     ],
     "quarter": [
@@ -641,6 +656,31 @@
         "place": "82",
         "team": "Mimi",
         "time": "3:15:12.7"
+      },
+      {
+        "place": "83",
+        "team": "Team Yellow B",
+        "time": "3:15:33.6"
+      },
+      {
+        "place": "84",
+        "team": "La Familia Durning",
+        "time": "3:16:10.0"
+      },
+      {
+        "place": "85",
+        "team": "MAN Walk&Beer",
+        "time": "3:17:51.9"
+      },
+      {
+        "place": "86",
+        "team": "Conrad Tokyo 1",
+        "time": "3:19:21.7"
+      },
+      {
+        "place": "87",
+        "team": "Conrad Tokyo 2",
+        "time": "3:19:26.7"
       }
     ]
   },
