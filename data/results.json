@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:18:20.325Z",
+  "updated": "2026-10-17T03:24:21.249Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -88,6 +88,11 @@
         "place": "17",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
+      },
+      {
+        "place": "18",
+        "team": "千山",
+        "time": "3:49:11.2"
       }
     ],
     "quarter": [
@@ -285,6 +290,31 @@
         "place": "39",
         "team": "KSゆる歩き",
         "time": "2:32:42.9"
+      },
+      {
+        "place": "40",
+        "team": "MS-Darkstar",
+        "time": "2:35:22.6"
+      },
+      {
+        "place": "41",
+        "team": "MS_QRP",
+        "time": "2:37:00.0"
+      },
+      {
+        "place": "42",
+        "team": "MS-BBQ-SAUCE",
+        "time": "2:37:00.3"
+      },
+      {
+        "place": "43",
+        "team": "Freedom",
+        "time": "2:37:11.8"
+      },
+      {
+        "place": "44",
+        "team": "Breast Friends Forever",
+        "time": "2:37:57.8"
       }
     ]
   },
