@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T07:48:19.592Z",
+  "updated": "2026-10-17T07:54:22.176Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -140,138 +140,158 @@
       },
       {
         "place": "28",
+        "team": "SFDC WINS",
+        "time": "7:19:38.6"
+      },
+      {
+        "place": "29",
         "team": "きこりんず",
         "time": "7:19:47.5"
       },
       {
-        "place": "29",
+        "place": "30",
         "team": "Transglobal Adventurers",
         "time": "7:24:42.9"
       },
       {
-        "place": "30",
+        "place": "31",
         "team": "Achilles Mongolia",
         "time": "7:29:43.4"
       },
       {
-        "place": "31",
+        "place": "32",
         "team": "o5 6e3 CTACA",
         "time": "7:30:10.1"
       },
       {
-        "place": "32",
+        "place": "33",
         "team": "buzzin’",
         "time": "7:34:46.6"
       },
       {
-        "place": "33",
+        "place": "34",
         "team": "NOS-DX",
         "time": "7:38:10.9"
       },
       {
-        "place": "34",
+        "place": "35",
         "team": "This is Peak",
         "time": "7:38:43.3"
       },
       {
-        "place": "35",
+        "place": "36",
         "team": "Yokoyama Striders",
         "time": "7:39:00.5"
       },
       {
-        "place": "36",
+        "place": "37",
         "team": "Hilton Tokyo Full-4",
         "time": "7:39:03.4"
       },
       {
-        "place": "37",
+        "place": "38",
         "team": "Turtle Power",
         "time": "7:42:53.5"
       },
       {
-        "place": "38",
+        "place": "39",
         "team": "とーふのすけ",
         "time": "7:44:26.6"
       },
       {
-        "place": "39",
+        "place": "40",
         "team": "Hilton Tokyo Full-3",
         "time": "7:46:39.0"
       },
       {
-        "place": "40",
+        "place": "41",
         "team": "MOYANA",
         "time": "7:57:52.0"
       },
       {
-        "place": "41",
+        "place": "42",
         "team": "Mona's Touch",
         "time": "8:01:01.3"
       },
       {
-        "place": "42",
+        "place": "43",
         "team": "Yamaheads",
         "time": "8:01:19.9"
       },
       {
-        "place": "43",
+        "place": "44",
         "team": "Pugnacious",
         "time": "8:07:18.2"
       },
       {
-        "place": "44",
+        "place": "45",
         "team": "Bollywood Bubbles",
         "time": "8:10:47.3"
       },
       {
-        "place": "45",
+        "place": "46",
         "team": "ヤマソナーズ４人旅",
         "time": "8:15:14.8"
       },
       {
-        "place": "46",
+        "place": "47",
         "team": "HPE-SHAKaaS",
         "time": "8:22:02.6"
       },
       {
-        "place": "47",
+        "place": "48",
         "team": "twin peaks",
         "time": "8:22:32.9"
       },
       {
-        "place": "48",
+        "place": "49",
         "team": "Gajoen Tokyo Full-1",
         "time": "8:24:29.2"
       },
       {
-        "place": "49",
+        "place": "50",
+        "team": "茶々",
+        "time": "8:25:54.8"
+      },
+      {
+        "place": "51",
         "team": "HPE-GTS3",
         "time": "8:27:05.2"
       },
       {
-        "place": "50",
+        "place": "52",
         "team": "Riot Women",
         "time": "8:29:22.9"
       },
       {
-        "place": "51",
+        "place": "53",
         "team": "Hyre #1",
         "time": "8:30:19.3"
       },
       {
-        "place": "52",
+        "place": "54",
         "team": "GKAJohn",
         "time": "8:32:53.4"
       },
       {
-        "place": "53",
+        "place": "55",
         "team": "GKA Taka's",
         "time": "8:37:31.6"
       },
       {
-        "place": "54",
+        "place": "56",
         "team": "GKA - Kissler",
         "time": "8:37:38.6"
+      },
+      {
+        "place": "57",
+        "team": "The Walking Crooners",
+        "time": "8:38:37.4"
+      },
+      {
+        "place": "58",
+        "team": "Yamalamadingdong",
+        "time": "8:42:09.1"
       }
     ],
     "half": [
