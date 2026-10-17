@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T03:42:20.740Z",
+  "updated": "2026-10-17T03:48:22.028Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -76,86 +76,121 @@
       },
       {
         "place": "15",
+        "team": "Team Manulife",
+        "time": "3:11:53.0"
+      },
+      {
+        "place": "16",
+        "team": "SFDC-Team-IZR",
+        "time": "3:14:00.0"
+      },
+      {
+        "place": "17",
         "team": "ServiceNow-全速前進ヨーソロー",
         "time": "3:16:38.2"
       },
       {
-        "place": "16",
+        "place": "18",
         "team": "Cardif Walktuaries",
         "time": "3:16:40.0"
       },
       {
-        "place": "17",
+        "place": "19",
         "team": "BAT (Team A) Huff & Puff",
         "time": "3:23:47.1"
       },
       {
-        "place": "18",
+        "place": "20",
         "team": "BAT Ops RG",
         "time": "3:24:06.3"
       },
       {
-        "place": "19",
+        "place": "21",
         "team": "Swiss-Japan Faces of Hope",
         "time": "3:24:07.1"
       },
       {
-        "place": "20",
+        "place": "22",
         "team": "BAT Striders",
         "time": "3:24:44.1"
       },
       {
-        "place": "21",
+        "place": "23",
+        "team": "Modesty",
+        "time": "3:25:42.9"
+      },
+      {
+        "place": "24",
+        "team": "Boldness",
+        "time": "3:28:20.8"
+      },
+      {
+        "place": "25",
         "team": "HPI-Sprain No Gain",
         "time": "3:29:24.1"
       },
       {
-        "place": "22",
+        "place": "26",
+        "team": "Yama Walkers",
+        "time": "3:29:32.3"
+      },
+      {
+        "place": "27",
+        "team": "Trail Blazers",
+        "time": "3:30:05.1"
+      },
+      {
+        "place": "28",
         "team": "日本BD APMチーム",
         "time": "3:30:55.7"
       },
       {
-        "place": "23",
+        "place": "29",
         "team": "Aon Japan",
         "time": "3:35:47.7"
       },
       {
-        "place": "24",
+        "place": "30",
         "team": "Adient C",
         "time": "3:38:47.5"
       },
       {
-        "place": "25",
+        "place": "31",
+        "team": "outdoor-fun",
+        "time": "3:41:27.8"
+      },
+      {
+        "place": "32",
         "team": "HPI-Team APJ 3D",
         "time": "3:45:16.4"
       },
       {
-        "place": "26",
+        "place": "33",
         "team": "千山",
         "time": "3:49:11.2"
       },
       {
-        "place": "27",
+        "place": "34",
         "team": "ServiceNow - Now on Tap",
         "time": "4:16:11.8"
       },
       {
-        "place": "28",
+        "place": "35",
         "team": "Step Sync",
         "time": "4:21:00.8"
       },
       {
-        "place": "29",
+        "place": "36",
         "team": "NATARI",
         "time": "4:24:04.4"
       },
       {
-        "place": "30",
+        "place": "37",
         "team": "NY",
         "time": "4:24:06.5"
       },
       {
-        "place": "31",
+        "place": "38",
         "team": "Hilton Tokyo Half-4",
         "time": "4:25:58.2"
       }
@@ -455,6 +490,26 @@
         "place": "59",
         "team": "龍驤 （ロンシャン）",
         "time": "2:56:11.0"
+      },
+      {
+        "place": "60",
+        "team": "VietNam002",
+        "time": "2:57:05.9"
+      },
+      {
+        "place": "61",
+        "team": "VietNam 001",
+        "time": "2:57:08.7"
+      },
+      {
+        "place": "62",
+        "team": "Comms & CXpress",
+        "time": "2:58:18.7"
+      },
+      {
+        "place": "63",
+        "team": "MAN Foot Notes",
+        "time": "2:58:26.9"
       }
     ]
   },
