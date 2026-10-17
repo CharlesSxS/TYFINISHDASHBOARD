@@ -507,7 +507,7 @@ const CONFIG = {
       set("s-" + key + "-course", course);
       set("s-" + key + "-done", s.done);
       set("s-" + key + "-ret", s.ret);
-      const pct = s.entered ? Math.min(1, s.done / s.entered) : 0;
+      const pct = s.entered ? Math.min(1, (s.done + s.ret) / s.entered) : 0;
       const arc = ROOT.querySelector("#arc-" + key);
       if (arc) arc.style.strokeDashoffset = (C * (1 - pct)).toFixed(1);
       set("cnum-" + key, s.done);
