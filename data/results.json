@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T12:30:40.895Z",
+  "updated": "2026-10-17T12:36:23.506Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -2655,38 +2655,38 @@
       },
       {
         "place": "531",
-        "team": "Picklegang",
-        "time": "12:26:54.3"
-      },
-      {
-        "place": "532",
         "team": "Lets go!",
         "time": "12:27:24.5"
       },
       {
-        "place": "533",
+        "place": "532",
         "team": "Tiki35",
         "time": "12:28:05.0"
       },
       {
-        "place": "534",
+        "place": "533",
         "team": "Empty nesters",
         "time": "12:28:08.0"
       },
       {
-        "place": "535",
+        "place": "534",
         "team": "LakasWacheras",
         "time": "12:28:26.7"
       },
       {
-        "place": "536",
+        "place": "535",
         "team": "HPI-Nikkeisha",
         "time": "12:28:57.4"
       },
       {
-        "place": "537",
+        "place": "536",
         "team": "baguettes",
         "time": "12:28:59.2"
+      },
+      {
+        "place": "537",
+        "team": "St. Ernesto's Pilgrimage",
+        "time": "12:30:11.8"
       },
       {
         "place": "538",
@@ -2695,136 +2695,146 @@
       },
       {
         "place": "539",
+        "team": "St. Ernesto's Pilgrimage",
+        "time": "12:30:26.4"
+      },
+      {
+        "place": "540",
         "team": "WALK つらすぎて滅！",
         "time": "12:30:29.8"
       },
       {
-        "place": "540",
+        "place": "541",
+        "team": "Picklegang",
+        "time": "12:30:38.9"
+      },
+      {
+        "place": "542",
         "team": "BD3B",
         "time": "12:30:50.7"
       },
       {
-        "place": "541",
+        "place": "543",
         "team": "Book Chat",
         "time": "12:34:10.2"
       },
       {
-        "place": "542",
+        "place": "544",
         "team": "Walk and Talk",
         "time": "12:34:13.7"
       },
       {
-        "place": "543",
+        "place": "545",
         "team": "Team MESH",
         "time": "12:34:14.0"
       },
       {
-        "place": "544",
+        "place": "546",
         "team": "Professional Walkers - Unpaid",
         "time": "12:34:52.7"
       },
       {
-        "place": "545",
+        "place": "547",
         "team": "Ombligon",
         "time": "12:35:01.5"
       },
       {
-        "place": "546",
+        "place": "548",
         "team": "Team Likius",
         "time": "12:36:05.4"
       },
       {
-        "place": "547",
+        "place": "549",
         "team": "ICOPA",
         "time": "12:40:42.4"
       },
       {
-        "place": "548",
+        "place": "550",
         "team": "ICOPA2",
         "time": "12:40:45.3"
       },
       {
-        "place": "549",
+        "place": "551",
         "team": "デリパ3年",
         "time": "12:43:50.5"
       },
       {
-        "place": "550",
+        "place": "552",
         "team": "Sunny Soles",
         "time": "12:44:04.1"
       },
       {
-        "place": "551",
+        "place": "553",
         "team": "BBB",
         "time": "12:44:11.5"
       },
       {
-        "place": "552",
+        "place": "554",
         "team": "AAA",
         "time": "12:44:15.5"
       },
       {
-        "place": "553",
+        "place": "555",
         "team": "SENCHA",
         "time": "12:44:47.5"
       },
       {
-        "place": "554",
+        "place": "556",
         "team": "Minamirinka Junior High",
         "time": "12:46:53.0"
       },
       {
-        "place": "555",
+        "place": "557",
         "team": "Happy Feet",
         "time": "12:56:37.1"
       },
       {
-        "place": "556",
+        "place": "558",
         "team": "御雑煮軍団 Team 6",
         "time": "13:02:45.2"
       },
       {
-        "place": "557",
+        "place": "559",
         "team": "御雑煮軍団 Team 7",
         "time": "13:03:23.0"
       },
       {
-        "place": "558",
+        "place": "560",
         "team": "HPE-海苔巻きロケット",
         "time": "13:11:07.7"
       },
       {
-        "place": "559",
+        "place": "561",
         "team": "御雑煮軍団 Team 5",
         "time": "13:15:05.1"
       },
       {
-        "place": "560",
+        "place": "562",
         "team": "御雑煮軍団 Team 3",
         "time": "13:15:06.7"
       },
       {
-        "place": "561",
+        "place": "563",
         "team": "御雑煮軍団 Team 1",
         "time": "13:15:11.6"
       },
       {
-        "place": "562",
+        "place": "564",
         "team": "御雑煮軍団 Team 4",
         "time": "13:15:27.1"
       },
       {
-        "place": "563",
+        "place": "565",
         "team": "Craic on Track",
         "time": "13:15:49.8"
       },
       {
-        "place": "564",
+        "place": "566",
         "team": "御雑煮軍団 Team 2",
         "time": "13:16:17.3"
       },
       {
-        "place": "565",
+        "place": "567",
         "team": "French Touche",
         "time": "13:17:51.5"
       }
