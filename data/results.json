@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T05:06:20.133Z",
+  "updated": "2026-10-17T05:12:20.672Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -417,68 +417,93 @@
       },
       {
         "place": "77",
+        "team": "SxS Summit & Beyond",
+        "time": "5:07:30.3"
+      },
+      {
+        "place": "78",
         "team": "レオナさん出産おめでとうメーン",
         "time": "5:11:32.4"
       },
       {
-        "place": "78",
+        "place": "79",
         "team": "Gaijin Walker's",
         "time": "5:12:24.3"
       },
       {
-        "place": "79",
+        "place": "80",
         "team": "未来徒歩会Half2",
         "time": "5:19:00.0"
       },
       {
-        "place": "80",
+        "place": "81",
         "team": "HPE-HEXA☆GON",
         "time": "5:19:31.0"
       },
       {
-        "place": "81",
+        "place": "82",
         "team": "HPE-HEXA★GON",
         "time": "5:19:35.5"
       },
       {
-        "place": "82",
+        "place": "83",
         "team": "Servicenow - The 3 amigos",
         "time": "5:28:23.4"
       },
       {
-        "place": "83",
+        "place": "84",
         "team": "Servicenow - DC Plumbers",
         "time": "5:30:13.2"
       },
       {
-        "place": "84",
+        "place": "85",
         "team": "ServiceNow-RGB軍団",
         "time": "5:36:43.2"
       },
       {
-        "place": "85",
+        "place": "86",
         "team": "HPE-TED_APS_United",
         "time": "5:51:07.5"
       },
       {
-        "place": "86",
+        "place": "87",
         "team": "HPE APS Presales 2026",
         "time": "5:51:14.6"
       },
       {
-        "place": "87",
+        "place": "88",
         "team": "HPI-Cat3",
         "time": "5:55:11.4"
       },
       {
-        "place": "88",
+        "place": "89",
         "team": "HPI-Barbarians",
         "time": "5:55:17.3"
       },
       {
-        "place": "89",
+        "place": "90",
         "team": "Team F",
         "time": "5:55:52.7"
+      },
+      {
+        "place": "91",
+        "team": "HPI-Cat1",
+        "time": "5:56:30.9"
+      },
+      {
+        "place": "92",
+        "team": "HPI-Cat2",
+        "time": "5:56:37.0"
+      },
+      {
+        "place": "93",
+        "team": "HPI-FY95ers",
+        "time": "5:58:30.5"
+      },
+      {
+        "place": "94",
+        "team": "赤い蹄",
+        "time": "6:00:18.8"
       }
     ],
     "quarter": [
@@ -1081,6 +1106,16 @@
         "place": "120",
         "team": "SRS-NAI 1",
         "time": "4:13:48.3"
+      },
+      {
+        "place": "121",
+        "team": "Veloci-Walkers",
+        "time": "4:21:00.2"
+      },
+      {
+        "place": "122",
+        "team": "MS-Kabathon",
+        "time": "4:23:40.9"
       }
     ]
   },
