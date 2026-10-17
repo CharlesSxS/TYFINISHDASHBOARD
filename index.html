@@ -13,9 +13,9 @@
      ============================================================ -->
 <style>
   html,body{margin:0;padding:0;background:#0A0E13;transition:background .3s;}
-  body{padding:14px;font-family:system-ui,sans-serif;}
-  .page{max-width:1600px;margin:0 auto;}
-  .foot{max-width:1600px;margin:10px auto 0;font-family:system-ui,sans-serif;font-size:11px;color:#7D8CA0;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
+  body{padding:10px;font-family:system-ui,sans-serif;}
+  .page{max-width:none;margin:0;}
+  .foot{max-width:none;margin:10px 0 0;font-family:system-ui,sans-serif;font-size:11px;color:#7D8CA0;display:flex;align-items:center;gap:9px;flex-wrap:wrap;}
   .foot-sxs{height:26px;display:block;flex:none;}
 </style>
 </head>
@@ -115,6 +115,8 @@ const CONFIG = {
   .oc-toggle button{border:0;background:transparent;color:var(--muted);font-family:'IBM Plex Mono',monospace;
     font-size:10px;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;cursor:pointer;}
   .oc-toggle button.on{background:${CY};color:#03272a;font-weight:600;}
+  .oc-fsbtn{border:1px solid var(--line2);border-radius:20px;background:transparent;color:var(--muted);cursor:pointer;font-size:15px;line-height:1;padding:5px 11px;}
+  .oc-fsbtn:hover{color:var(--ink);border-color:${CY};}
 
   .oc-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:12px;}
   .oc-kpi{border:1px solid var(--line);border-radius:10px;background:var(--panel);padding:12px 14px;position:relative;overflow:hidden;}
@@ -246,6 +248,7 @@ const CONFIG = {
       <div class="oc-toggle" id="oc-theme">
         <button data-t="dark" data-i18n="dark">Dark</button><button data-t="light" data-i18n="light">Light</button>
       </div>
+      <button class="oc-fsbtn" id="oc-fs" title="Full screen" aria-label="Full screen">&#x26F6;</button>
       <div class="oc-live"><b></b><span id="oc-livetxt">System Live</span></div>
       <div class="oc-clock"><span class="k" data-i18n="raceClock">Race Clock</span><span class="v" id="oc-race">00:00:00</span></div>
       <div class="oc-clock"><span class="k" data-i18n="localJst">Local (JST)</span><span class="v" id="oc-local">--:--:--</span></div>
@@ -577,6 +580,23 @@ const CONFIG = {
       ROOT.querySelectorAll("#oc-theme button").forEach(b => b.classList.toggle("on", b.dataset.t === t));
     };
   });
+
+  /* ---------------- full-screen toggle (kiosk / projector) ---------------- */
+  (function () {
+    const fsBtn = ROOT.querySelector("#oc-fs");
+    if (!fsBtn) return;
+    const el = document.documentElement;
+    const isFs = () => document.fullscreenElement || document.webkitFullscreenElement;
+    fsBtn.onclick = () => {
+      try {
+        if (isFs()) { (document.exitFullscreen || document.webkitExitFullscreen).call(document); }
+        else { (el.requestFullscreen || el.webkitRequestFullscreen).call(el); }
+      } catch (e) {}
+    };
+    const sync = () => { fsBtn.innerHTML = isFs() ? "&#x2715;" : "&#x26F6;"; fsBtn.title = isFs() ? "Exit full screen" : "Full screen"; };
+    document.addEventListener("fullscreenchange", sync);
+    document.addEventListener("webkitfullscreenchange", sync);
+  })();
 
   /* ---------------- clocks (API-driven) ---------------- */
   let raceStart = CONFIG.RACE_START ? new Date(CONFIG.RACE_START).getTime() : null;
