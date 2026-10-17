@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T04:24:21.380Z",
+  "updated": "2026-10-17T04:30:40.988Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -297,23 +297,48 @@
       },
       {
         "place": "57",
+        "team": "Adient D",
+        "time": "4:55:55.3"
+      },
+      {
+        "place": "58",
+        "team": "Adient E",
+        "time": "4:56:00.0"
+      },
+      {
+        "place": "59",
+        "team": "Adient G",
+        "time": "4:56:39.8"
+      },
+      {
+        "place": "60",
         "team": "Amhi Chalu Sanghatana",
         "time": "4:56:53.7"
       },
       {
-        "place": "58",
+        "place": "61",
         "team": "WKO Japan 2",
         "time": "4:58:39.9"
       },
       {
-        "place": "59",
+        "place": "62",
         "team": "WKO Japan 1",
         "time": "4:59:19.6"
       },
       {
-        "place": "60",
+        "place": "63",
         "team": "Gaijin Walker's",
         "time": "5:12:24.3"
+      },
+      {
+        "place": "64",
+        "team": "HPE-HEXA☆GON",
+        "time": "5:19:31.0"
+      },
+      {
+        "place": "65",
+        "team": "HPE-HEXA★GON",
+        "time": "5:19:35.5"
       }
     ],
     "quarter": [
@@ -851,6 +876,16 @@
         "place": "107",
         "team": "Aimasho Team",
         "time": "3:38:04.4"
+      },
+      {
+        "place": "108",
+        "team": "HPE-Team Ankur",
+        "time": "3:43:55.5"
+      },
+      {
+        "place": "109",
+        "team": "MS-Lulu&Ari",
+        "time": "3:45:01.3"
       }
     ]
   },
