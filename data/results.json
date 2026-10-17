@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T02:00:47.801Z",
+  "updated": "2026-10-17T02:06:21.409Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [],
@@ -43,6 +43,11 @@
         "place": "8",
         "team": "Hilton Tokyo Half-1",
         "time": "2:41:06.5"
+      },
+      {
+        "place": "9",
+        "team": "ServiceNow - Flow Forward",
+        "time": "2:41:16.2"
       }
     ],
     "quarter": []
