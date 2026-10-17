@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T09:00:50.891Z",
+  "updated": "2026-10-17T09:06:21.593Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -600,71 +600,81 @@
       },
       {
         "place": "120",
+        "team": "NANANOSE",
+        "time": "9:19:55.8"
+      },
+      {
+        "place": "121",
         "team": "Full Duration",
         "time": "9:22:36.0"
       },
       {
-        "place": "121",
+        "place": "122",
         "team": "Duration Risk",
         "time": "9:22:44.1"
       },
       {
-        "place": "122",
+        "place": "123",
         "team": "Altera",
         "time": "9:24:03.6"
       },
       {
-        "place": "123",
+        "place": "124",
         "team": "犬猿の仲良し",
         "time": "9:25:09.6"
       },
       {
-        "place": "124",
+        "place": "125",
         "team": "Embassy of Canada/カナダ大使館",
         "time": "9:26:46.6"
       },
       {
-        "place": "125",
+        "place": "126",
         "team": "Cirque du Sore Legs",
         "time": "9:26:54.5"
       },
       {
-        "place": "126",
+        "place": "127",
         "team": "The Hikers",
         "time": "9:30:14.2"
       },
       {
-        "place": "127",
+        "place": "128",
         "team": "Apollo",
         "time": "9:30:23.0"
       },
       {
-        "place": "128",
+        "place": "129",
         "team": "Omnissa",
         "time": "9:32:20.1"
       },
       {
-        "place": "129",
+        "place": "130",
         "team": "Los Mois",
         "time": "9:34:37.0"
       },
       {
-        "place": "130",
+        "place": "131",
         "team": "HPE-Hinoeuma",
         "time": "9:35:24.8"
       },
       {
-        "place": "131",
+        "place": "132",
         "team": "Revenge of the Famichiki",
         "time": "9:37:51.1"
       },
       {
-        "place": "132",
+        "place": "133",
         "team": "Team Lakota",
         "time": "9:38:08.6"
       },
       {
-        "place": "133",
+        "place": "134",
+        "team": "大妻嵐山おやじの会",
+        "time": "9:38:55.8"
+      },
+      {
+        "place": "135",
         "team": "Okecchans",
         "time": "9:42:07.7"
       }
