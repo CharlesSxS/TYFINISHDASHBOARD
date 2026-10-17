@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T09:12:21.665Z",
+  "updated": "2026-10-17T09:18:21.477Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -420,313 +420,408 @@
       },
       {
         "place": "84",
+        "team": "20’s MISOGI",
+        "time": "8:42:58.1"
+      },
+      {
+        "place": "85",
         "team": "ひかっちオールスターズ",
         "time": "8:44:22.9"
       },
       {
-        "place": "85",
+        "place": "86",
         "team": "Sole Mates",
         "time": "8:45:25.8"
       },
       {
-        "place": "86",
+        "place": "87",
         "team": "Hilton Tokyo Full-5",
         "time": "8:46:05.0"
       },
       {
-        "place": "87",
+        "place": "88",
         "team": "AI&AA グルメウォーカーズ",
         "time": "8:46:57.8"
       },
       {
-        "place": "88",
+        "place": "89",
         "team": "Schienenersatzverkehr",
         "time": "8:47:18.1"
       },
       {
-        "place": "89",
+        "place": "90",
         "team": "Bucket Brigade",
         "time": "8:47:23.0"
       },
       {
-        "place": "90",
+        "place": "91",
         "team": "HSBC Walking Club",
         "time": "8:48:17.9"
       },
       {
-        "place": "91",
+        "place": "92",
         "team": "KPMGアドバイザリーホールディングスチーム２",
         "time": "8:49:49.3"
       },
       {
-        "place": "92",
+        "place": "93",
         "team": "HPI-Amigos",
         "time": "8:50:43.7"
       },
       {
-        "place": "93",
+        "place": "94",
         "team": "Leones",
         "time": "8:52:17.8"
       },
       {
-        "place": "94",
+        "place": "95",
         "team": "Yamallama Dingdongs",
         "time": "8:52:57.3"
       },
       {
-        "place": "95",
+        "place": "96",
         "team": "HPE-walkmen",
         "time": "8:57:35.8"
       },
       {
-        "place": "96",
+        "place": "97",
+        "team": "Team Finland",
+        "time": "8:58:21.4"
+      },
+      {
+        "place": "98",
         "team": "HPE-GTS4",
         "time": "8:59:00.8"
       },
       {
-        "place": "97",
+        "place": "99",
         "team": "Hiraya",
         "time": "9:00:15.6"
       },
       {
-        "place": "98",
+        "place": "100",
         "team": "UCHH#1",
         "time": "9:01:37.2"
       },
       {
-        "place": "99",
+        "place": "101",
         "team": "GreenBeans E",
         "time": "9:02:19.5"
       },
       {
-        "place": "100",
+        "place": "102",
         "team": "GreenBeans D",
         "time": "9:02:22.4"
       },
       {
-        "place": "101",
+        "place": "103",
         "team": "Urban Grit",
         "time": "9:03:23.3"
       },
       {
-        "place": "102",
+        "place": "104",
         "team": "Lost In Tokyo Year3: Fellowship Grows",
         "time": "9:05:45.7"
       },
       {
-        "place": "103",
+        "place": "105",
         "team": "Ojima Friends Striders-5",
         "time": "9:06:02.9"
       },
       {
-        "place": "104",
+        "place": "106",
         "team": "Spike’s Disciples",
         "time": "9:07:10.9"
       },
       {
-        "place": "105",
+        "place": "107",
         "team": "BREXA Technology宇都宮支店#2",
         "time": "9:07:37.6"
       },
       {
-        "place": "106",
+        "place": "108",
         "team": "Team AMS",
         "time": "9:07:38.8"
       },
       {
-        "place": "107",
+        "place": "109",
         "team": "The Big Steppers",
         "time": "9:07:57.9"
       },
       {
-        "place": "108",
+        "place": "110",
         "team": "Natsu",
         "time": "9:08:00.5"
       },
       {
-        "place": "109",
+        "place": "111",
         "team": "太陽工業ランニング部",
         "time": "9:08:34.4"
       },
       {
-        "place": "110",
+        "place": "112",
         "team": "HPI-五十歩百歩",
         "time": "9:08:38.7"
       },
       {
-        "place": "111",
+        "place": "113",
         "team": "Conrad Tokyo 5",
         "time": "9:10:48.3"
       },
       {
-        "place": "112",
+        "place": "114",
         "team": "児童養護施設　子山ホーム",
         "time": "9:11:27.3"
       },
       {
-        "place": "113",
+        "place": "115",
         "team": "Conrad Tokyo 4",
         "time": "9:12:20.2"
       },
       {
-        "place": "114",
+        "place": "116",
         "team": "JPM Momentum Bull",
         "time": "9:12:46.2"
       },
       {
-        "place": "115",
+        "place": "117",
         "team": "Hatsune Stride",
         "time": "9:14:00.7"
       },
       {
-        "place": "116",
+        "place": "118",
         "team": "ESET Japan",
         "time": "9:14:32.8"
       },
       {
-        "place": "117",
+        "place": "119",
+        "team": "ITK Ikuzo!",
+        "time": "9:15:02.1"
+      },
+      {
+        "place": "120",
         "team": "(−_−＃)",
         "time": "9:15:16.1"
       },
       {
-        "place": "118",
+        "place": "121",
         "team": "Ryu1",
         "time": "9:16:09.3"
       },
       {
-        "place": "119",
+        "place": "122",
         "team": "Ninnenme",
         "time": "9:18:56.2"
       },
       {
-        "place": "120",
+        "place": "123",
         "team": "かきまる2026",
         "time": "9:19:42.4"
       },
       {
-        "place": "121",
+        "place": "124",
         "team": "Potato Wizards",
         "time": "9:19:48.9"
       },
       {
-        "place": "122",
+        "place": "125",
         "team": "NANANOSE",
         "time": "9:19:55.8"
       },
       {
-        "place": "123",
+        "place": "126",
         "team": "Chicken Warriors",
         "time": "9:21:47.4"
       },
       {
-        "place": "124",
+        "place": "127",
         "team": "Full Duration",
         "time": "9:22:36.0"
       },
       {
-        "place": "125",
+        "place": "128",
         "team": "Duration Risk",
         "time": "9:22:44.1"
       },
       {
-        "place": "126",
+        "place": "129",
         "team": "Altera",
         "time": "9:24:03.6"
       },
       {
-        "place": "127",
+        "place": "130",
         "team": "犬猿の仲良し",
         "time": "9:25:09.6"
       },
       {
-        "place": "128",
+        "place": "131",
         "team": "Embassy of Canada/カナダ大使館",
         "time": "9:26:46.6"
       },
       {
-        "place": "129",
+        "place": "132",
         "team": "Cirque du Sore Legs",
         "time": "9:26:54.5"
       },
       {
-        "place": "130",
+        "place": "133",
         "team": "The Hikers",
         "time": "9:30:14.2"
       },
       {
-        "place": "131",
+        "place": "134",
         "team": "Apollo",
         "time": "9:30:23.0"
       },
       {
-        "place": "132",
+        "place": "135",
         "team": "Omnissa",
         "time": "9:32:20.1"
       },
       {
-        "place": "133",
+        "place": "136",
+        "team": "BREXA Technology 宇都宮支店#3",
+        "time": "9:32:58.2"
+      },
+      {
+        "place": "137",
         "team": "Los Mois",
         "time": "9:34:37.0"
       },
       {
-        "place": "134",
+        "place": "138",
         "team": "HPE-Hinoeuma",
         "time": "9:35:24.8"
       },
       {
-        "place": "135",
+        "place": "139",
         "team": "KARL STORZ WAVE 2",
         "time": "9:36:16.0"
       },
       {
-        "place": "136",
+        "place": "140",
         "team": "KARL STORZ WAVE1",
         "time": "9:36:19.4"
       },
       {
-        "place": "137",
+        "place": "141",
         "team": "Revenge of the Famichiki",
         "time": "9:37:51.1"
       },
       {
-        "place": "138",
+        "place": "142",
         "team": "Team Lakota",
         "time": "9:38:08.6"
       },
       {
-        "place": "139",
+        "place": "143",
         "team": "大妻嵐山おやじの会",
         "time": "9:38:55.8"
       },
       {
-        "place": "140",
+        "place": "144",
         "team": "Wine Blonde",
         "time": "9:39:53.7"
       },
       {
-        "place": "141",
+        "place": "145",
+        "team": "MF-YOKOHAMA_B",
+        "time": "9:40:59.2"
+      },
+      {
+        "place": "146",
         "team": "Okecchans",
         "time": "9:42:07.7"
       },
       {
-        "place": "142",
+        "place": "147",
+        "team": "Yummython",
+        "time": "9:43:52.6"
+      },
+      {
+        "place": "148",
         "team": "Yamabants",
         "time": "9:44:11.3"
       },
       {
-        "place": "143",
+        "place": "149",
         "team": "Whining Wanderers",
         "time": "9:45:47.1"
       },
       {
-        "place": "144",
+        "place": "150",
+        "team": "Earth Walker",
+        "time": "9:51:28.7"
+      },
+      {
+        "place": "151",
+        "team": "F&K",
+        "time": "9:53:23.5"
+      },
+      {
+        "place": "152",
+        "team": "TOIN21/4-2",
+        "time": "9:53:51.4"
+      },
+      {
+        "place": "153",
+        "team": "TOIN21/4-1",
+        "time": "9:53:57.8"
+      },
+      {
+        "place": "154",
+        "team": "TOIN21/4-3",
+        "time": "9:54:06.8"
+      },
+      {
+        "place": "155",
+        "team": "GreenBeans C",
+        "time": "9:54:14.7"
+      },
+      {
+        "place": "156",
+        "team": "GreenBeans B",
+        "time": "9:54:17.3"
+      },
+      {
+        "place": "157",
+        "team": "GreenBeans A",
+        "time": "9:54:25.4"
+      },
+      {
+        "place": "158",
         "team": "GKA Jackson",
         "time": "9:56:44.8"
       },
       {
-        "place": "145",
+        "place": "159",
         "team": "HPI-Team Nack",
         "time": "9:59:34.3"
+      },
+      {
+        "place": "160",
+        "team": "HPI-e-holic2",
+        "time": "10:02:25.5"
+      },
+      {
+        "place": "161",
+        "team": "Stride Sisters",
+        "time": "10:02:50.5"
+      },
+      {
+        "place": "162",
+        "team": "The Goofs",
+        "time": "10:04:00.1"
+      },
+      {
+        "place": "163",
+        "team": "HPI-GOTEN",
+        "time": "10:06:37.9"
+      },
+      {
+        "place": "164",
+        "team": "HPI-OTOKOMAE",
+        "time": "10:07:47.8"
       }
     ],
     "half": [
