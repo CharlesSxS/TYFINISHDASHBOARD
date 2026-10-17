@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T06:42:21.300Z",
+  "updated": "2026-10-17T06:48:22.288Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -877,173 +877,213 @@
       },
       {
         "place": "150",
+        "team": "MAN ご来店ありがとうございます！Ⅱ",
+        "time": "6:11:28.3"
+      },
+      {
+        "place": "151",
+        "team": "チーム宮崎",
+        "time": "6:13:04.2"
+      },
+      {
+        "place": "152",
+        "team": "磯自慢",
+        "time": "6:13:39.1"
+      },
+      {
+        "place": "153",
         "team": "Croissants & Dim Sum",
         "time": "6:13:53.6"
       },
       {
-        "place": "151",
+        "place": "154",
+        "team": "MANTeam池澤",
+        "time": "6:13:57.4"
+      },
+      {
+        "place": "155",
         "team": "CBRE One Step Ahead",
         "time": "6:15:04.6"
       },
       {
-        "place": "152",
+        "place": "156",
         "team": "CBRE Walk Warriors",
         "time": "6:15:09.3"
       },
       {
-        "place": "153",
+        "place": "157",
         "team": "CBRE GWS A Team",
         "time": "6:15:18.2"
       },
       {
-        "place": "154",
+        "place": "158",
         "team": "Servicenow - JLS Ladies",
         "time": "6:15:51.0"
       },
       {
-        "place": "155",
+        "place": "159",
         "team": "ハーフ2",
         "time": "6:15:59.3"
       },
       {
-        "place": "156",
+        "place": "160",
         "team": "CBRE The Giving Feet",
         "time": "6:16:10.1"
       },
       {
-        "place": "157",
+        "place": "161",
         "team": "ハーフ1",
         "time": "6:16:18.1"
       },
       {
-        "place": "158",
+        "place": "162",
         "team": "Servicenow - NeverWalkAlone",
         "time": "6:16:18.4"
       },
       {
-        "place": "159",
+        "place": "163",
         "team": "SERVICE Walkflow",
         "time": "6:16:24.9"
       },
       {
-        "place": "160",
+        "place": "164",
         "team": "ServiceNow- Team Yasu",
         "time": "6:20:00.0"
       },
       {
-        "place": "161",
+        "place": "165",
         "team": "Step Hope Rangers",
         "time": "6:20:11.3"
       },
       {
-        "place": "162",
+        "place": "166",
         "team": "Beast Club!!",
         "time": "6:20:21.1"
       },
       {
-        "place": "163",
+        "place": "167",
         "team": "Tokyo Walkers",
         "time": "6:20:32.1"
       },
       {
-        "place": "164",
+        "place": "168",
         "team": "Top Biller",
         "time": "6:21:43.6"
       },
       {
-        "place": "165",
+        "place": "169",
         "team": "Masa's Heroes",
         "time": "6:22:55.3"
       },
       {
-        "place": "166",
+        "place": "170",
         "team": "Business Operations",
         "time": "6:23:08.3"
       },
       {
-        "place": "167",
+        "place": "171",
         "team": "ServiceNow - R246 リボーン",
         "time": "6:27:45.9"
       },
       {
-        "place": "168",
+        "place": "172",
         "team": "Shaji",
         "time": "6:29:00.7"
       },
       {
-        "place": "169",
+        "place": "173",
         "team": "Door Decoders",
         "time": "6:33:01.1"
       },
       {
-        "place": "170",
+        "place": "174",
         "team": "Arukuno Daisuki!!",
         "time": "6:33:47.3"
       },
       {
-        "place": "171",
+        "place": "175",
         "team": "Adient F",
         "time": "6:37:31.8"
       },
       {
-        "place": "172",
+        "place": "176",
         "team": "Kizuna_Mobility",
         "time": "6:40:06.5"
       },
       {
-        "place": "173",
+        "place": "177",
         "team": "HPI-The Happiest People",
         "time": "6:40:32.4"
       },
       {
-        "place": "174",
+        "place": "178",
         "team": "ServiceNow-走るNow",
         "time": "6:47:03.4"
       },
       {
-        "place": "175",
+        "place": "179",
         "team": "Jaguar Land Rover",
         "time": "6:52:33.1"
       },
       {
-        "place": "176",
+        "place": "180",
         "team": "Jaguar Land Rover",
         "time": "6:56:49.5"
       },
       {
-        "place": "177",
+        "place": "181",
         "team": "full-vo1",
         "time": "7:02:54.1"
       },
       {
-        "place": "178",
+        "place": "182",
         "team": "仲通り44",
         "time": "7:06:26.1"
       },
       {
-        "place": "179",
+        "place": "183",
         "team": "HPE-AS2withH",
         "time": "7:06:55.3"
       },
       {
-        "place": "180",
+        "place": "184",
         "team": "ServiceNow-Where Are We Now?",
         "time": "7:16:29.0"
       },
       {
-        "place": "181",
-        "team": "HPE-GTS1",
-        "time": "7:26:11.1"
+        "place": "185",
+        "team": "Servicenow - WebHunter",
+        "time": "7:23:22.6"
       },
       {
-        "place": "182",
+        "place": "186",
         "team": "HPE てくてくIB",
         "time": "7:27:33.1"
       },
       {
-        "place": "183",
+        "place": "187",
         "team": "HPI-ちーむぜっと",
         "time": "7:30:52.9"
+      },
+      {
+        "place": "188",
+        "team": "HPE-MS2",
+        "time": "7:32:28.1"
+      },
+      {
+        "place": "189",
+        "team": "HPE-GTS1",
+        "time": "7:32:59.8"
+      },
+      {
+        "place": "190",
+        "team": "HPE-GTS2",
+        "time": "7:35:28.1"
+      },
+      {
+        "place": "191",
+        "team": "HPE-MS1",
+        "time": "7:35:53.8"
       }
     ],
     "quarter": [
