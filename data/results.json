@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T08:42:20.368Z",
+  "updated": "2026-10-17T08:48:21.200Z",
   "raceStart": "2026-10-17T08:10:00.000Z",
   "legs": {
     "full": [
@@ -280,258 +280,313 @@
       },
       {
         "place": "56",
+        "team": "SFDC ES 2",
+        "time": "8:13:52.9"
+      },
+      {
+        "place": "57",
+        "team": "YAMATHON2026MANULIF",
+        "time": "8:14:02.8"
+      },
+      {
+        "place": "58",
         "team": "ヤマソナーズ４人旅",
         "time": "8:15:14.8"
       },
       {
-        "place": "57",
+        "place": "59",
         "team": "Active Recovery Gone Wrong",
         "time": "8:15:51.6"
       },
       {
-        "place": "58",
+        "place": "60",
         "team": "HPE-SHAKaaS",
         "time": "8:22:02.6"
       },
       {
-        "place": "59",
+        "place": "61",
         "team": "twin peaks",
         "time": "8:22:32.9"
       },
       {
-        "place": "60",
+        "place": "62",
         "team": "Pacific Striders",
         "time": "8:24:27.6"
       },
       {
-        "place": "61",
+        "place": "63",
         "team": "Gajoen Tokyo Full-1",
         "time": "8:24:29.2"
       },
       {
-        "place": "62",
+        "place": "64",
         "team": "雨天結構ズ",
         "time": "8:24:37.3"
       },
       {
-        "place": "63",
+        "place": "65",
         "team": "茶々",
         "time": "8:25:54.8"
       },
       {
-        "place": "64",
+        "place": "66",
         "team": "HPE-GTS3",
         "time": "8:27:05.2"
       },
       {
-        "place": "65",
+        "place": "67",
         "team": "Team A",
         "time": "8:27:25.2"
       },
       {
-        "place": "66",
+        "place": "68",
         "team": "Riot Women",
         "time": "8:29:22.9"
       },
       {
-        "place": "67",
+        "place": "69",
+        "team": "Ariake Adventure",
+        "time": "8:29:39.4"
+      },
+      {
+        "place": "70",
         "team": "Hyre #1",
         "time": "8:30:19.3"
       },
       {
-        "place": "68",
+        "place": "71",
         "team": "GKAJohn",
         "time": "8:32:53.4"
       },
       {
-        "place": "69",
+        "place": "72",
         "team": "Bell Fighters",
         "time": "8:34:08.6"
       },
       {
-        "place": "70",
+        "place": "73",
         "team": "Les pères du dimanche",
         "time": "8:35:35.4"
       },
       {
-        "place": "71",
+        "place": "74",
         "team": "GKA Taka's",
         "time": "8:37:31.6"
       },
       {
-        "place": "72",
+        "place": "75",
         "team": "GKA - Kissler",
         "time": "8:37:38.6"
       },
       {
-        "place": "73",
+        "place": "76",
         "team": "The Walking Crooners",
         "time": "8:38:37.4"
       },
       {
-        "place": "74",
+        "place": "77",
         "team": "BREXA Technology 宇都宮支店#1",
         "time": "8:38:40.6"
       },
       {
-        "place": "75",
+        "place": "78",
         "team": "Yamalamadingdong",
         "time": "8:42:09.1"
       },
       {
-        "place": "76",
+        "place": "79",
         "team": "未来徒歩会FULL1",
         "time": "8:42:32.2"
       },
       {
-        "place": "77",
+        "place": "80",
         "team": "谷を越え、濱の向こうの高みへ",
         "time": "8:42:36.0"
       },
       {
-        "place": "78",
+        "place": "81",
         "team": "Sheila",
         "time": "8:42:55.7"
       },
       {
-        "place": "79",
+        "place": "82",
         "team": "ひかっちオールスターズ",
         "time": "8:44:22.9"
       },
       {
-        "place": "80",
+        "place": "83",
         "team": "Sole Mates",
         "time": "8:45:25.8"
       },
       {
-        "place": "81",
+        "place": "84",
         "team": "Hilton Tokyo Full-5",
         "time": "8:46:05.0"
       },
       {
-        "place": "82",
+        "place": "85",
+        "team": "AI&AA グルメウォーカーズ",
+        "time": "8:46:57.8"
+      },
+      {
+        "place": "86",
+        "team": "Schienenersatzverkehr",
+        "time": "8:47:18.1"
+      },
+      {
+        "place": "87",
         "team": "Bucket Brigade",
         "time": "8:47:23.0"
       },
       {
-        "place": "83",
+        "place": "88",
         "team": "KPMGアドバイザリーホールディングスチーム２",
         "time": "8:49:49.3"
       },
       {
-        "place": "84",
+        "place": "89",
         "team": "HPI-Amigos",
         "time": "8:50:43.7"
       },
       {
-        "place": "85",
+        "place": "90",
         "team": "Leones",
         "time": "8:52:17.8"
       },
       {
-        "place": "86",
+        "place": "91",
         "team": "Yamallama Dingdongs",
         "time": "8:52:57.3"
       },
       {
-        "place": "87",
+        "place": "92",
         "team": "HPE-walkmen",
         "time": "8:57:35.8"
       },
       {
-        "place": "88",
+        "place": "93",
         "team": "HPE-GTS4",
         "time": "8:59:00.8"
       },
       {
-        "place": "89",
+        "place": "94",
         "team": "Hiraya",
         "time": "9:00:15.6"
       },
       {
-        "place": "90",
+        "place": "95",
         "team": "UCHH#1",
         "time": "9:01:37.2"
       },
       {
-        "place": "91",
+        "place": "96",
         "team": "GreenBeans E",
         "time": "9:02:19.5"
       },
       {
-        "place": "92",
+        "place": "97",
         "team": "GreenBeans D",
         "time": "9:02:22.4"
       },
       {
-        "place": "93",
+        "place": "98",
         "team": "Lost In Tokyo Year3: Fellowship Grows",
         "time": "9:05:45.7"
       },
       {
-        "place": "94",
+        "place": "99",
         "team": "Ojima Friends Striders-5",
         "time": "9:06:02.9"
       },
       {
-        "place": "95",
+        "place": "100",
         "team": "Spike’s Disciples",
         "time": "9:07:10.9"
       },
       {
-        "place": "96",
+        "place": "101",
         "team": "Team AMS",
         "time": "9:07:38.8"
       },
       {
-        "place": "97",
+        "place": "102",
         "team": "The Big Steppers",
         "time": "9:07:57.9"
       },
       {
-        "place": "98",
+        "place": "103",
         "team": "Natsu",
         "time": "9:08:00.5"
       },
       {
-        "place": "99",
+        "place": "104",
         "team": "HPI-五十歩百歩",
         "time": "9:08:38.7"
       },
       {
-        "place": "100",
+        "place": "105",
         "team": "Conrad Tokyo 5",
         "time": "9:10:48.3"
       },
       {
-        "place": "101",
+        "place": "106",
         "team": "Conrad Tokyo 4",
         "time": "9:12:20.2"
       },
       {
-        "place": "102",
+        "place": "107",
         "team": "JPM Momentum Bull",
         "time": "9:12:46.2"
       },
       {
-        "place": "103",
+        "place": "108",
+        "team": "Hatsune Stride",
+        "time": "9:14:00.7"
+      },
+      {
+        "place": "109",
         "team": "ESET Japan",
         "time": "9:14:32.8"
       },
       {
-        "place": "104",
+        "place": "110",
+        "team": "Ryu1",
+        "time": "9:16:09.3"
+      },
+      {
+        "place": "111",
         "team": "かきまる2026",
         "time": "9:19:42.4"
       },
       {
-        "place": "105",
+        "place": "112",
+        "team": "Potato Wizards",
+        "time": "9:19:48.9"
+      },
+      {
+        "place": "113",
         "team": "Full Duration",
         "time": "9:22:36.0"
       },
       {
-        "place": "106",
+        "place": "114",
         "team": "Duration Risk",
         "time": "9:22:44.1"
+      },
+      {
+        "place": "115",
+        "team": "ドゥンドゥンやろうじゃねえか",
+        "time": "9:22:49.3"
+      },
+      {
+        "place": "116",
+        "team": "Altera",
+        "time": "9:24:03.6"
+      },
+      {
+        "place": "117",
+        "team": "HPE-Hinoeuma",
+        "time": "9:35:24.8"
       }
     ],
     "half": [
