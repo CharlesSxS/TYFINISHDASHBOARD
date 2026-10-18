@@ -29,6 +29,7 @@ const cfgURL  = new URL("../config.json", import.meta.url);
 const countsU = new URL("../data/counts.json", import.meta.url);
 const resU    = new URL("../data/results.json", import.meta.url);
 const wavesU  = new URL("../data/waves.json", import.meta.url);
+const reconU  = new URL("../data/reconcile.json", import.meta.url);
 const cfg = JSON.parse(await readFile(cfgURL, "utf8"));
 
 /* ---- helpers ---- */
@@ -43,6 +44,8 @@ function timeToSec(t) {
   return p.reduce((a, v) => a * 60 + v, 0);
 }
 const teamName = r => r.Name || r["Team name"] || r.TeamName || "";
+// normalize a team name so the same team matches across the two races
+const normName = s => String(s || "").trim().replace(/\s+/g, " ").toLowerCase();
 
 /* ---- wave time extraction ----
    Each start-list entry carries its wave as a clock time. We try the likely
@@ -92,12 +95,14 @@ async function ws(path) {
 async function buildRoster() {
   const counts = { full: 0, half: 0, quarter: 0 };
   const waves = {};   // course -> [{t,n}] only when reliably bucketed
+  const rosterNames = {};   // course -> [team name] from the start list
   for (const k of ORDER) {
     const id = cfg.startLists && cfg.startLists[k];
     if (!id) continue;
     try {
       const data = await ws(`/json/startlist?raceid=${encodeURIComponent(id)}`);
       const list = data.StartList || data.Racers || [];
+      rosterNames[k] = (Array.isArray(list) ? list : []).map(teamName).filter(Boolean);
       counts[k] = Array.isArray(list) && list.length
         ? list.length
         : Number((data.RaceInfo && data.RaceInfo.Racers) || 0);
@@ -119,13 +124,14 @@ async function buildRoster() {
   }
   counts.total = counts.full + counts.half + counts.quarter;
   counts.updated = new Date().toISOString();
-  return { counts, waves };
+  return { counts, waves, rosterNames };
 }
 
 /* ---- results: one results race per course, finishers + DNF ---- */
 async function buildResults() {
   const legs = { full: [], half: [], quarter: [] };
   const retired = { full: 0, half: 0, quarter: 0 };
+  const rows = { full: [], half: [], quarter: [] };   // every results-race racer {team,status}
   let raceStart = null, anyConfigured = false;
 
   for (const k of ORDER) {
@@ -141,9 +147,11 @@ async function buildResults() {
       for (const g of groups) for (const r of (g.Racers || [])) {
         if (!r) continue;
         const t = String(r.Time == null ? "" : r.Time).trim();
-        if (isDNF(t)) { retired[k]++; continue; }
-        if (!isFinishTime(t)) continue;   // blank, "-", or not a real time = still on course
-        legs[k].push({ place: r.Place || "", team: teamName(r), time: t });
+        const nm = teamName(r);
+        if (isDNF(t)) { retired[k]++; rows[k].push({ team: nm, status: "dnf" }); continue; }
+        if (!isFinishTime(t)) { rows[k].push({ team: nm, status: "oncourse" }); continue; }   // blank, "-" = still on course
+        legs[k].push({ place: r.Place || "", team: nm, time: t });
+        rows[k].push({ team: nm, status: "finish", time: t });
       }
     } catch (e) {
       console.error(`results ${k} (${id}) failed: ${e.message}`);
@@ -157,14 +165,16 @@ async function buildResults() {
       if (seen.has(key)) return false; seen.add(key); return true;
     }).sort((a, b) => timeToSec(a.time) - timeToSec(b.time));
   }
-  return { updated: new Date().toISOString(), raceStart, legs, retired, _configured: anyConfigured };
+  return { updated: new Date().toISOString(), raceStart, legs, retired, rows, _configured: anyConfigured };
 }
 
 /* ---- run: each output independent; a failure keeps the last good file ---- */
 let fail = false;
+let rosterNames = {}, resultRows = {};
 
 try {
-  const { counts, waves } = await buildRoster();
+  const { counts, waves, rosterNames: rn } = await buildRoster();
+  rosterNames = rn || {};
   await writeFile(countsU, JSON.stringify(counts, null, 2));
   console.log("counts:", JSON.stringify({ full: counts.full, half: counts.half, quarter: counts.quarter, total: counts.total }));
 
@@ -186,6 +196,7 @@ try {
 
 try {
   const results = await buildResults();
+  resultRows = results.rows || {};
   if (!results._configured) {
     console.log("results: no result raceids set in config.json yet — leaving the current file as-is.");
   } else {
@@ -197,6 +208,39 @@ try {
 } catch (e) {
   console.error("results: kept last-good file —", e.message);
   fail = true;
+}
+
+// ---- reconciliation: results-race roster vs start-list roster ----
+try {
+  const recon = { updated: new Date().toISOString() };
+  for (const k of ORDER) {
+    const startList = (rosterNames[k] || []).map(normName).filter(Boolean);
+    const startCnt = new Map();
+    for (const n of startList) startCnt.set(n, (startCnt.get(n) || 0) + 1);
+    const accountedRows = (resultRows[k] || []).filter(r => r.status === "finish" || r.status === "dnf");
+    const resCnt = new Map();
+    for (const r of accountedRows) { const n = normName(r.team); if (n) resCnt.set(n, (resCnt.get(n) || 0) + 1); }
+    const duplicateNames = [];
+    for (const [n, c] of resCnt) if (c > 1) duplicateNames.push({ name: n, count: c });
+    const extrasNotInStartList = [];
+    for (const n of resCnt.keys()) if (!startCnt.has(n)) extrasNotInStartList.push(n);
+    const inStartListNotInResults = [];
+    for (const n of startCnt.keys()) if (!resCnt.has(n)) inStartListNotInResults.push(n);
+    recon[k] = {
+      startListCount: startList.length,
+      resultsAccounted: accountedRows.length,
+      finish: accountedRows.filter(r => r.status === "finish").length,
+      dnf: accountedRows.filter(r => r.status === "dnf").length,
+      overBy: accountedRows.length - startList.length,
+      duplicateNames,
+      extrasNotInStartList,
+      inStartListNotInResults
+    };
+  }
+  await writeFile(reconU, JSON.stringify(recon, null, 2));
+  console.log("reconcile:", ORDER.map(k => `${k} over ${recon[k] ? recon[k].overBy : "?"}`).join(" "));
+} catch (e) {
+  console.error("reconcile failed:", e.message);
 }
 
 // Non-zero only if BOTH failed outright, so a partial run still commits good data.
