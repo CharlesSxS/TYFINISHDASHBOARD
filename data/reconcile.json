@@ -1,0 +1,51 @@
+{
+  "updated": "2026-10-18T04:55:07.084Z",
+  "full": {
+    "startListCount": 686,
+    "resultsAccounted": 689,
+    "finish": 593,
+    "dnf": 96,
+    "overBy": 3,
+    "duplicateNames": [
+      {
+        "name": "児童養護施設 子山ホーム",
+        "count": 6
+      },
+      {
+        "name": "walkie talkies",
+        "count": 2
+      },
+      {
+        "name": "st. ernesto's pilgrimage",
+        "count": 2
+      }
+    ],
+    "extrasNotInStartList": [],
+    "inStartListNotInResults": []
+  },
+  "half": {
+    "startListCount": 284,
+    "resultsAccounted": 286,
+    "finish": 248,
+    "dnf": 38,
+    "overBy": 2,
+    "duplicateNames": [
+      {
+        "name": "jaguar land rover",
+        "count": 2
+      }
+    ],
+    "extrasNotInStartList": [],
+    "inStartListNotInResults": []
+  },
+  "quarter": {
+    "startListCount": 143,
+    "resultsAccounted": 143,
+    "finish": 129,
+    "dnf": 14,
+    "overBy": 0,
+    "duplicateNames": [],
+    "extrasNotInStartList": [],
+    "inStartListNotInResults": []
+  }
+}
